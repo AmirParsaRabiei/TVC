@@ -11,33 +11,10 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | trojan | @DirectVPN | 14 = trojan, 15.222.85.223, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @DirectVPN | 12 = trojan, 3.13.138.189, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @DirectVPN | 15 = trojan, 35.182.7.210, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 7 = trojan, 34.248.19.45, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @DirectVPN | 1 = trojan, 99.80.17.125, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | ss | @shadowsockskeys | 14 = ss, 5.35.47.122, 45635, encrypt-method = chacha20-ietf-poly1305, password = CLphyEMQT8nbG8EImX0A2D
-🔒 | trojan | @privatevpns | 10 = trojan, 15.188.32.231, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 11 = trojan, 13.36.151.228, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @DirectVPN | 4 = trojan, 35.181.140.242, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 9 = trojan, 18.133.2.200, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 13 = trojan, 3.77.176.212, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 3 = trojan, 52.58.138.186, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 14 = trojan, 13.51.32.77, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @DirectVPN | 6 = trojan, 51.21.88.169, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 15 = trojan, 51.20.207.230, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 5 = trojan, 51.21.36.254, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @DirectVPN | 7 = trojan, 16.16.113.211, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | ss | @shadowsockskeys | 13 = ss, 103.167.234.98, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @outlineopenkey | 2 = ss, 77.83.246.74, 33320, encrypt-method = chacha20-ietf-poly1305, password = N7K30Xe0ckQapc7Cy2tOrj
-🔒 | ss | @shadowsockskeys | 10 = ss, 77.247.108.24, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @shadowsockskeys | 12 = ss, 195.181.160.6, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @shadowsockskeys | 1 = ss, 45.144.48.63, 57456, encrypt-method = chacha20-ietf-poly1305, password = d3837224ed465f00
-🔒 | ss | @shadowsockskeys | 0 = ss, 192.71.249.146, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | trojan | @DirectVPN | 14,🔒 | trojan | @DirectVPN | 12,🔒 | trojan | @DirectVPN | 15,🔒 | trojan | @privatevpns | 7,🔒 | trojan | @DirectVPN | 1,🔒 | ss | @shadowsockskeys | 14,🔒 | trojan | @privatevpns | 10,🔒 | trojan | @privatevpns | 11,🔒 | trojan | @DirectVPN | 4,🔒 | trojan | @privatevpns | 9,🔒 | trojan | @privatevpns | 13,🔒 | trojan | @privatevpns | 3,🔒 | trojan | @privatevpns | 14,🔒 | trojan | @DirectVPN | 6,🔒 | trojan | @privatevpns | 15,🔒 | trojan | @privatevpns | 5,🔒 | trojan | @DirectVPN | 7,🔒 | ss | @shadowsockskeys | 13,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 10,🔒 | ss | @shadowsockskeys | 12,🔒 | ss | @shadowsockskeys | 1,🔒 | ss | @shadowsockskeys | 0
-URL-TEST = url-test,🔒 | trojan | @DirectVPN | 14,🔒 | trojan | @DirectVPN | 12,🔒 | trojan | @DirectVPN | 15,🔒 | trojan | @privatevpns | 7,🔒 | trojan | @DirectVPN | 1,🔒 | ss | @shadowsockskeys | 14,🔒 | trojan | @privatevpns | 10,🔒 | trojan | @privatevpns | 11,🔒 | trojan | @DirectVPN | 4,🔒 | trojan | @privatevpns | 9,🔒 | trojan | @privatevpns | 13,🔒 | trojan | @privatevpns | 3,🔒 | trojan | @privatevpns | 14,🔒 | trojan | @DirectVPN | 6,🔒 | trojan | @privatevpns | 15,🔒 | trojan | @privatevpns | 5,🔒 | trojan | @DirectVPN | 7,🔒 | ss | @shadowsockskeys | 13,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 10,🔒 | ss | @shadowsockskeys | 12,🔒 | ss | @shadowsockskeys | 1,🔒 | ss | @shadowsockskeys | 0
-FALLBACK = fallback,🔒 | trojan | @DirectVPN | 14,🔒 | trojan | @DirectVPN | 12,🔒 | trojan | @DirectVPN | 15,🔒 | trojan | @privatevpns | 7,🔒 | trojan | @DirectVPN | 1,🔒 | ss | @shadowsockskeys | 14,🔒 | trojan | @privatevpns | 10,🔒 | trojan | @privatevpns | 11,🔒 | trojan | @DirectVPN | 4,🔒 | trojan | @privatevpns | 9,🔒 | trojan | @privatevpns | 13,🔒 | trojan | @privatevpns | 3,🔒 | trojan | @privatevpns | 14,🔒 | trojan | @DirectVPN | 6,🔒 | trojan | @privatevpns | 15,🔒 | trojan | @privatevpns | 5,🔒 | trojan | @DirectVPN | 7,🔒 | ss | @shadowsockskeys | 13,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 10,🔒 | ss | @shadowsockskeys | 12,🔒 | ss | @shadowsockskeys | 1,🔒 | ss | @shadowsockskeys | 0
+MANUAL = select,URL-TEST,FALLBACK
+URL-TEST = url-test
+FALLBACK = fallback
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
