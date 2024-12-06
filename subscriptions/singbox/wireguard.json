@@ -165,6 +165,27 @@
         },
         {
             "type": "wireguard",
+            "private_key": "0AaCmDlSv++TsLibNGf0aUbfvS5wK/lt5rCZW50sjlg=",
+            "server": "188.114.98.237",
+            "server_port": 3476,
+            "local_address": [
+                "172.16.0.2/32",
+                "2606:4700:110:8f81:d551:a0:532e:a2b3/128"
+            ],
+            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+            "reserved": [
+                61,
+                196,
+                82
+            ],
+            "mtu": 1280,
+            "tag": "HELI|1|Type 0",
+            "fake_packets": "1-3",
+            "fake_packets_size": "1-10",
+            "fake_packets_delay": "1-10"
+        },
+        {
+            "type": "wireguard",
             "private_key": "WDxeDVsgKpVHfkfrFI1w2ZETPkGHyU+FISWW7cC+Gmg=",
             "server": "188.114.98.73",
             "server_port": 1018,
@@ -179,7 +200,7 @@
                 255
             ],
             "mtu": 1280,
-            "tag": "HELI|1|Type 0",
+            "tag": "HELI|2|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -200,7 +221,7 @@
                 30
             ],
             "mtu": 1280,
-            "tag": "HELI|2|Type 0",
+            "tag": "HELI|3|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -221,7 +242,7 @@
                 181
             ],
             "mtu": 1280,
-            "tag": "HELI|3|Type 0",
+            "tag": "HELI|4|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -242,7 +263,7 @@
                 42
             ],
             "mtu": 1280,
-            "tag": "HELI|4|Type 0",
+            "tag": "HELI|5|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -263,7 +284,7 @@
                 255
             ],
             "mtu": 1280,
-            "tag": "HELI|5|Type 0",
+            "tag": "HELI|6|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -284,7 +305,7 @@
                 45
             ],
             "mtu": 1280,
-            "tag": "HELI|6|Type 0",
+            "tag": "HELI|7|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -305,7 +326,7 @@
                 35
             ],
             "mtu": 1280,
-            "tag": "HELI|7|Type 0",
+            "tag": "HELI|8|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -326,7 +347,7 @@
                 189
             ],
             "mtu": 1280,
-            "tag": "HELI|8|Type 0",
+            "tag": "HELI|9|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -347,7 +368,7 @@
                 207
             ],
             "mtu": 1280,
-            "tag": "HELI|9|Type 0",
+            "tag": "HELI|10|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -368,7 +389,7 @@
                 50
             ],
             "mtu": 1280,
-            "tag": "HELI|10|Type 0",
+            "tag": "HELI|11|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -389,7 +410,7 @@
                 163
             ],
             "mtu": 1280,
-            "tag": "HELI|11|Type 0",
+            "tag": "HELI|12|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -410,7 +431,7 @@
                 160
             ],
             "mtu": 1280,
-            "tag": "HELI|12|Type 0",
+            "tag": "HELI|13|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -431,7 +452,7 @@
                 208
             ],
             "mtu": 1280,
-            "tag": "HELI|13|Type 0",
+            "tag": "HELI|14|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -452,7 +473,7 @@
                 210
             ],
             "mtu": 1280,
-            "tag": "HELI|14|Type 0",
+            "tag": "HELI|15|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -473,7 +494,7 @@
                 36
             ],
             "mtu": 1280,
-            "tag": "HELI|15|Type 0",
+            "tag": "HELI|16|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -494,7 +515,7 @@
                 56
             ],
             "mtu": 1280,
-            "tag": "HELI|16|Type 0",
+            "tag": "HELI|17|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
@@ -513,27 +534,6 @@
                 210,
                 153,
                 250
-            ],
-            "mtu": 1280,
-            "tag": "HELI|17|Type 0",
-            "fake_packets": "1-3",
-            "fake_packets_size": "1-10",
-            "fake_packets_delay": "1-10"
-        },
-        {
-            "type": "wireguard",
-            "private_key": "QLGtxi2X6e3T0AvlhRzAeAC5GKSMLbNpbA2A88BvHkw=",
-            "server": "188.114.96.251",
-            "server_port": 955,
-            "local_address": [
-                "172.16.0.2/32",
-                "2606:4700:110:8f81:d551:a0:532e:a2b3/128"
-            ],
-            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "reserved": [
-                235,
-                249,
-                145
             ],
             "mtu": 1280,
             "tag": "HELI|18|Type 0",
