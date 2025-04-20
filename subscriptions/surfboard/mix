@@ -11,26 +11,28 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | trojan | @privatevpns | 1 = trojan, 108.128.9.74, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 0 = trojan, 54.195.240.94, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | trojan | @privatevpns | 2 = trojan, 108.128.9.74, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🔒 | ss | @kingofilter | 25 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🔒 | trojan | @privatevpns | 5 = trojan, 13.36.215.194, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | ss | @outlineopenkey | 4 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = uyQuQb0fLIWk5oaV2SwGgV
 🔒 | ss | @outlineopenkey | 1 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = NdZEZx1O1m0JdBPfVhBNSS
 🔒 | ss | @outlineopenkey | 2 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = 6yMG8KhFBhyDWGlw2DNBWl
-🔒 | ss | @outlineopenkey | 4 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = uyQuQb0fLIWk5oaV2SwGgV
-🔒 | trojan | @privatevpns | 6 = trojan, 13.36.224.26, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @DirectVPN | 6 = trojan, 13.36.224.26, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | ss | @shadowsockskeys | 2 = ss, 77.110.102.235, 64864, encrypt-method = chacha20-ietf-poly1305, password = oLS7BRXzGPVJtjWOcvHbzz
-🔒 | trojan | @DirectVPN | 2 = trojan, 13.134.21.134, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | trojan | @DirectVPN | 12 = trojan, 13.61.52.36, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | trojan | @privatevpns | 0 = trojan, 13.50.83.104, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🔒 | ss | @shadowsockskeys | 6 = ss, 77.110.106.77, 36301, encrypt-method = chacha20-ietf-poly1305, password = v0NHlCl2nvVfC8AeZPMffi
-🔒 | trojan | @privatevpns | 2 = trojan, 13.134.21.134, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | ss | @outlineopenkey | 0 = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = w7Kb9FzBo8BmqlsCa6GcwP
-🔒 | trojan | @privatevpns | 7 = trojan, 3.126.7.25, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | ss | @shadowsockskeys | 2 = ss, 77.110.102.235, 64864, encrypt-method = chacha20-ietf-poly1305, password = oLS7BRXzGPVJtjWOcvHbzz
+🔒 | trojan | @privatevpns | 7 = trojan, 13.36.224.26, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | trojan | @DirectVPN | 1 = trojan, 54.195.240.94, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | trojan | @privatevpns | 8 = trojan, 3.126.7.25, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🔒 | ss | @shadowsockskeys | 0 = ss, 185.123.101.241, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 🔒 | ss | @shadowsockskeys | 1 = ss, 64.227.132.137, 80, encrypt-method = chacha20-ietf-poly1305, password = NYK8DkZqmDLUQzaSbb2K3N
+🔒 | trojan | @DirectVPN | 6 = trojan, 18.153.216.181, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | trojan | @DirectVPN | 5 = trojan, 13.36.215.194, 22222, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | ss | @outlineopenkey | 0 = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = w7Kb9FzBo8BmqlsCa6GcwP
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | trojan | @privatevpns | 1,🔒 | trojan | @privatevpns | 0,🔒 | ss | @kingofilter | 25,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @outlineopenkey | 4,🔒 | trojan | @privatevpns | 6,🔒 | trojan | @DirectVPN | 6,🔒 | ss | @shadowsockskeys | 2,🔒 | trojan | @DirectVPN | 2,🔒 | ss | @shadowsockskeys | 6,🔒 | trojan | @privatevpns | 2,🔒 | ss | @outlineopenkey | 0,🔒 | trojan | @privatevpns | 7,🔒 | ss | @shadowsockskeys | 0,🔒 | ss | @shadowsockskeys | 1
-URL-TEST = url-test,🔒 | trojan | @privatevpns | 1,🔒 | trojan | @privatevpns | 0,🔒 | ss | @kingofilter | 25,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @outlineopenkey | 4,🔒 | trojan | @privatevpns | 6,🔒 | trojan | @DirectVPN | 6,🔒 | ss | @shadowsockskeys | 2,🔒 | trojan | @DirectVPN | 2,🔒 | ss | @shadowsockskeys | 6,🔒 | trojan | @privatevpns | 2,🔒 | ss | @outlineopenkey | 0,🔒 | trojan | @privatevpns | 7,🔒 | ss | @shadowsockskeys | 0,🔒 | ss | @shadowsockskeys | 1
-FALLBACK = fallback,🔒 | trojan | @privatevpns | 1,🔒 | trojan | @privatevpns | 0,🔒 | ss | @kingofilter | 25,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @outlineopenkey | 4,🔒 | trojan | @privatevpns | 6,🔒 | trojan | @DirectVPN | 6,🔒 | ss | @shadowsockskeys | 2,🔒 | trojan | @DirectVPN | 2,🔒 | ss | @shadowsockskeys | 6,🔒 | trojan | @privatevpns | 2,🔒 | ss | @outlineopenkey | 0,🔒 | trojan | @privatevpns | 7,🔒 | ss | @shadowsockskeys | 0,🔒 | ss | @shadowsockskeys | 1
+MANUAL = select,URL-TEST,FALLBACK,🔒 | trojan | @privatevpns | 2,🔒 | ss | @kingofilter | 25,🔒 | trojan | @privatevpns | 5,🔒 | ss | @outlineopenkey | 4,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 2,🔒 | trojan | @DirectVPN | 12,🔒 | trojan | @privatevpns | 0,🔒 | ss | @shadowsockskeys | 6,🔒 | ss | @shadowsockskeys | 2,🔒 | trojan | @privatevpns | 7,🔒 | trojan | @DirectVPN | 1,🔒 | trojan | @privatevpns | 8,🔒 | ss | @shadowsockskeys | 0,🔒 | ss | @shadowsockskeys | 1,🔒 | trojan | @DirectVPN | 6,🔒 | trojan | @DirectVPN | 5,🔒 | ss | @outlineopenkey | 0
+URL-TEST = url-test,🔒 | trojan | @privatevpns | 2,🔒 | ss | @kingofilter | 25,🔒 | trojan | @privatevpns | 5,🔒 | ss | @outlineopenkey | 4,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 2,🔒 | trojan | @DirectVPN | 12,🔒 | trojan | @privatevpns | 0,🔒 | ss | @shadowsockskeys | 6,🔒 | ss | @shadowsockskeys | 2,🔒 | trojan | @privatevpns | 7,🔒 | trojan | @DirectVPN | 1,🔒 | trojan | @privatevpns | 8,🔒 | ss | @shadowsockskeys | 0,🔒 | ss | @shadowsockskeys | 1,🔒 | trojan | @DirectVPN | 6,🔒 | trojan | @DirectVPN | 5,🔒 | ss | @outlineopenkey | 0
+FALLBACK = fallback,🔒 | trojan | @privatevpns | 2,🔒 | ss | @kingofilter | 25,🔒 | trojan | @privatevpns | 5,🔒 | ss | @outlineopenkey | 4,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 2,🔒 | trojan | @DirectVPN | 12,🔒 | trojan | @privatevpns | 0,🔒 | ss | @shadowsockskeys | 6,🔒 | ss | @shadowsockskeys | 2,🔒 | trojan | @privatevpns | 7,🔒 | trojan | @DirectVPN | 1,🔒 | trojan | @privatevpns | 8,🔒 | ss | @shadowsockskeys | 0,🔒 | ss | @shadowsockskeys | 1,🔒 | trojan | @DirectVPN | 6,🔒 | trojan | @DirectVPN | 5,🔒 | ss | @outlineopenkey | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
