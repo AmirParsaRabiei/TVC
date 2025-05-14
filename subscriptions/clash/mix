@@ -120,15 +120,19 @@ dns:
 proxies:
   - {"name":"🔒 | ss | @kingofilter | 7","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @kingofilter | 2","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | trojan | @privatevpns | 1","type":"trojan","server":"13.37.170.237","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🔒 | trojan | @DirectVPN | 3","type":"trojan","server":"3.79.133.0","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🔒 | ss | @outlineopenkey | 6","type":"ss","server":"194.87.45.189","port":443,"password":"H62LXF2s47lOq6S8Zp9H6k","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @outlineopenkey | 1","type":"ss","server":"89.185.84.185","port":443,"password":"G010Pjso8Lqsn71EZfN4kD","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | trojan | @DirectVPN | 7","type":"trojan","server":"13.49.1.177","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
-  - {"name":"🔒 | ss | @shadowsockskeys | 8","type":"ss","server":"5.181.21.194","port":18660,"password":"pV5BAzqLZosOfuIrkyoadT","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @shadowsockskeys | 5","type":"ss","server":"185.221.196.34","port":57602,"password":"YsMyc2KezH5LEuOkL3hIKD","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @shadowsockskeys | 11","type":"ss","server":"204.136.10.115","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | trojan | @privatevpns | 7","type":"trojan","server":"13.49.1.177","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🔒 | trojan | @DirectVPN | 2","type":"trojan","server":"3.64.181.93","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🔒 | trojan | @privatevpns | 1","type":"trojan","server":"13.37.170.237","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
   - {"name":"🔒 | ss | @shadowsockskeys | 6","type":"ss","server":"100.42.182.30","port":16470,"password":"8a07255382c369ea","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @DeamNet_Proxy | 15","type":"ss","server":"193.29.139.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | trojan | @privatevpns | 7","type":"trojan","server":"13.49.1.177","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🔒 | ss | @shadowsockskeys | 8","type":"ss","server":"5.181.21.194","port":18660,"password":"pV5BAzqLZosOfuIrkyoadT","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | trojan | @DirectVPN | 1","type":"trojan","server":"13.37.170.237","port":22223,"udp":false,"password":"telegram-id-directvpn","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🔒 | ss | @outlineopenkey | 5","type":"ss","server":"81.19.141.45","port":443,"password":"cx4ypnS32Nmu2gYRUEgpf1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @outlineopenkey | 2","type":"ss","server":"81.19.141.45","port":443,"password":"lodKx8SWBrE7X1npD2fO8d","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -137,15 +141,19 @@ proxy-groups:
       - FALLBACK
       - '🔒 | ss | @kingofilter | 7'
       - '🔒 | ss | @kingofilter | 2'
-      - '🔒 | trojan | @privatevpns | 1'
-      - '🔒 | trojan | @DirectVPN | 3'
       - '🔒 | ss | @outlineopenkey | 6'
+      - '🔒 | ss | @outlineopenkey | 1'
       - '🔒 | trojan | @DirectVPN | 7'
-      - '🔒 | ss | @shadowsockskeys | 8'
+      - '🔒 | ss | @shadowsockskeys | 5'
       - '🔒 | ss | @shadowsockskeys | 11'
-      - '🔒 | trojan | @privatevpns | 7'
+      - '🔒 | trojan | @DirectVPN | 2'
+      - '🔒 | trojan | @privatevpns | 1'
       - '🔒 | ss | @shadowsockskeys | 6'
-      - '🔒 | ss | @DeamNet_Proxy | 15'
+      - '🔒 | trojan | @privatevpns | 7'
+      - '🔒 | ss | @shadowsockskeys | 8'
+      - '🔒 | trojan | @DirectVPN | 1'
+      - '🔒 | ss | @outlineopenkey | 5'
+      - '🔒 | ss | @outlineopenkey | 2'
   - name: URL-TEST
     type: url-test
     url: http://cp.cloudflare.com
@@ -154,15 +162,19 @@ proxy-groups:
     proxies:
       - '🔒 | ss | @kingofilter | 7'
       - '🔒 | ss | @kingofilter | 2'
-      - '🔒 | trojan | @privatevpns | 1'
-      - '🔒 | trojan | @DirectVPN | 3'
       - '🔒 | ss | @outlineopenkey | 6'
+      - '🔒 | ss | @outlineopenkey | 1'
       - '🔒 | trojan | @DirectVPN | 7'
-      - '🔒 | ss | @shadowsockskeys | 8'
+      - '🔒 | ss | @shadowsockskeys | 5'
       - '🔒 | ss | @shadowsockskeys | 11'
-      - '🔒 | trojan | @privatevpns | 7'
+      - '🔒 | trojan | @DirectVPN | 2'
+      - '🔒 | trojan | @privatevpns | 1'
       - '🔒 | ss | @shadowsockskeys | 6'
-      - '🔒 | ss | @DeamNet_Proxy | 15'
+      - '🔒 | trojan | @privatevpns | 7'
+      - '🔒 | ss | @shadowsockskeys | 8'
+      - '🔒 | trojan | @DirectVPN | 1'
+      - '🔒 | ss | @outlineopenkey | 5'
+      - '🔒 | ss | @outlineopenkey | 2'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com
@@ -170,15 +182,19 @@ proxy-groups:
     proxies:
       - '🔒 | ss | @kingofilter | 7'
       - '🔒 | ss | @kingofilter | 2'
-      - '🔒 | trojan | @privatevpns | 1'
-      - '🔒 | trojan | @DirectVPN | 3'
       - '🔒 | ss | @outlineopenkey | 6'
+      - '🔒 | ss | @outlineopenkey | 1'
       - '🔒 | trojan | @DirectVPN | 7'
-      - '🔒 | ss | @shadowsockskeys | 8'
+      - '🔒 | ss | @shadowsockskeys | 5'
       - '🔒 | ss | @shadowsockskeys | 11'
-      - '🔒 | trojan | @privatevpns | 7'
+      - '🔒 | trojan | @DirectVPN | 2'
+      - '🔒 | trojan | @privatevpns | 1'
       - '🔒 | ss | @shadowsockskeys | 6'
-      - '🔒 | ss | @DeamNet_Proxy | 15'
+      - '🔒 | trojan | @privatevpns | 7'
+      - '🔒 | ss | @shadowsockskeys | 8'
+      - '🔒 | trojan | @DirectVPN | 1'
+      - '🔒 | ss | @outlineopenkey | 5'
+      - '🔒 | ss | @outlineopenkey | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
