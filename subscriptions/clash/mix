@@ -119,13 +119,11 @@ dns:
 
 proxies:
   - {"name":"🔒 | ss | @kingofilter | 0","type":"ss","server":"45.87.175.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | trojan | @v2ray1_ng | 6","type":"trojan","server":"94.131.20.3","port":443,"udp":false,"password":"3482c71a-d01c-4ae5-b454-fa8cb3785f66","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"chop-wrist-bud.stark-industries.solutions"}
   - {"name":"🔒 | ss | @outlineopenkey | 4","type":"ss","server":"81.19.141.45","port":443,"password":"s36TPab1uhKcs9IJBf9n1I","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | trojan | @v2ray1_ng | 6","type":"trojan","server":"94.131.20.3","port":443,"udp":false,"password":"3482c71a-d01c-4ae5-b454-fa8cb3785f66","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"chop-wrist-bud.stark-industries.solutions"}
   - {"name":"🔒 | ss | @outlineopenkey | 0","type":"ss","server":"89.185.84.185","port":443,"password":"oJE4X5TYwFNrle4rGBZBwN","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @outlineopenkey | 1","type":"ss","server":"77.83.246.74","port":443,"password":"lZZXtEPm52QKBfpLwj0ZEf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @kingofilter | 2","type":"ss","server":"103.106.1.92","port":23492,"password":"yMX9WGPgUEcRZmlaa0YHHC","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @shadowsockskeys | 2","type":"ss","server":"64.176.85.73","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @shadowsockskeys | 19","type":"ss","server":"5.181.21.194","port":18660,"password":"pV5BAzqLZosOfuIrkyoadT","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @VmessProtocol | 1","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -134,13 +132,11 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🔒 | ss | @kingofilter | 0'
-      - '🔒 | trojan | @v2ray1_ng | 6'
       - '🔒 | ss | @outlineopenkey | 4'
+      - '🔒 | trojan | @v2ray1_ng | 6'
       - '🔒 | ss | @outlineopenkey | 0'
       - '🔒 | ss | @outlineopenkey | 1'
-      - '🔒 | ss | @kingofilter | 2'
       - '🔒 | ss | @shadowsockskeys | 2'
-      - '🔒 | ss | @shadowsockskeys | 19'
       - '🔒 | ss | @VmessProtocol | 1'
   - name: URL-TEST
     type: url-test
@@ -149,13 +145,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🔒 | ss | @kingofilter | 0'
-      - '🔒 | trojan | @v2ray1_ng | 6'
       - '🔒 | ss | @outlineopenkey | 4'
+      - '🔒 | trojan | @v2ray1_ng | 6'
       - '🔒 | ss | @outlineopenkey | 0'
       - '🔒 | ss | @outlineopenkey | 1'
-      - '🔒 | ss | @kingofilter | 2'
       - '🔒 | ss | @shadowsockskeys | 2'
-      - '🔒 | ss | @shadowsockskeys | 19'
       - '🔒 | ss | @VmessProtocol | 1'
   - name: FALLBACK
     type: fallback
@@ -163,13 +157,11 @@ proxy-groups:
     interval: 60
     proxies:
       - '🔒 | ss | @kingofilter | 0'
-      - '🔒 | trojan | @v2ray1_ng | 6'
       - '🔒 | ss | @outlineopenkey | 4'
+      - '🔒 | trojan | @v2ray1_ng | 6'
       - '🔒 | ss | @outlineopenkey | 0'
       - '🔒 | ss | @outlineopenkey | 1'
-      - '🔒 | ss | @kingofilter | 2'
       - '🔒 | ss | @shadowsockskeys | 2'
-      - '🔒 | ss | @shadowsockskeys | 19'
       - '🔒 | ss | @VmessProtocol | 1'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
