@@ -11,22 +11,21 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | ss | @outlineopenkey | 2 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = oJE4X5TYwFNrle4rGBZBwN
-🔒 | ss | @VmessProtocol | 1 = ss, 45.87.175.35, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🔒 | ss | @kingofilter | 0 = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🔒 | trojan | @privatevpns | 0 = trojan, 35.181.77.27, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🔒 | ss | @kingofilter | 2 = ss, 103.106.1.92, 23492, encrypt-method = chacha20-ietf-poly1305, password = yMX9WGPgUEcRZmlaa0YHHC
+🔒 | ss | @kingofilter | 0 = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🔒 | ss | @VmessProtocol | 1 = ss, 45.87.175.35, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 🔒 | trojan | @v2ray1_ng | 9 = trojan, 94.131.20.3, 443, password = 3482c71a-d01c-4ae5-b454-fa8cb3785f66, udp-delay = true, skip-cert-verify = false, sni = chop-wrist-bud.stark-industries.solutions, ws = false
-🔒 | ss | @outlineopenkey | 6 = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = s36TPab1uhKcs9IJBf9n1I
 🔒 | ss | @shadowsockskeys | 19 = ss, 5.181.21.194, 18660, encrypt-method = chacha20-ietf-poly1305, password = pV5BAzqLZosOfuIrkyoadT
 🔒 | ss | @outlineopenkey | 1 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = TXmBVTDFRj0khN98uHuM2g
 🔒 | ss | @outlineopenkey | 0 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = tQ31vYm8fPrdsS2qNwIqCg
 🔒 | ss | @outlineopenkey | 3 = ss, 77.83.246.74, 443, encrypt-method = chacha20-ietf-poly1305, password = lZZXtEPm52QKBfpLwj0ZEf
+🔒 | ss | @outlineopenkey | 2 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = oJE4X5TYwFNrle4rGBZBwN
 🔒 | ss | @shadowsockskeys | 2 = ss, 64.176.85.73, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
-🔒 | ss | @shadowsockskeys | 5 = ss, 62.60.231.81, 59945, encrypt-method = chacha20-ietf-poly1305, password = FFkwO4g2c3PW7BVNgvzovL
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @VmessProtocol | 1,🔒 | ss | @kingofilter | 0,🔒 | ss | @kingofilter | 2,🔒 | trojan | @v2ray1_ng | 9,🔒 | ss | @outlineopenkey | 6,🔒 | ss | @shadowsockskeys | 19,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @shadowsockskeys | 2,🔒 | ss | @shadowsockskeys | 5
-URL-TEST = url-test,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @VmessProtocol | 1,🔒 | ss | @kingofilter | 0,🔒 | ss | @kingofilter | 2,🔒 | trojan | @v2ray1_ng | 9,🔒 | ss | @outlineopenkey | 6,🔒 | ss | @shadowsockskeys | 19,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @shadowsockskeys | 2,🔒 | ss | @shadowsockskeys | 5
-FALLBACK = fallback,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @VmessProtocol | 1,🔒 | ss | @kingofilter | 0,🔒 | ss | @kingofilter | 2,🔒 | trojan | @v2ray1_ng | 9,🔒 | ss | @outlineopenkey | 6,🔒 | ss | @shadowsockskeys | 19,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @shadowsockskeys | 2,🔒 | ss | @shadowsockskeys | 5
+MANUAL = select,URL-TEST,FALLBACK,🔒 | trojan | @privatevpns | 0,🔒 | ss | @kingofilter | 2,🔒 | ss | @kingofilter | 0,🔒 | ss | @VmessProtocol | 1,🔒 | trojan | @v2ray1_ng | 9,🔒 | ss | @shadowsockskeys | 19,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 2
+URL-TEST = url-test,🔒 | trojan | @privatevpns | 0,🔒 | ss | @kingofilter | 2,🔒 | ss | @kingofilter | 0,🔒 | ss | @VmessProtocol | 1,🔒 | trojan | @v2ray1_ng | 9,🔒 | ss | @shadowsockskeys | 19,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 2
+FALLBACK = fallback,🔒 | trojan | @privatevpns | 0,🔒 | ss | @kingofilter | 2,🔒 | ss | @kingofilter | 0,🔒 | ss | @VmessProtocol | 1,🔒 | trojan | @v2ray1_ng | 9,🔒 | ss | @shadowsockskeys | 19,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 2
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
