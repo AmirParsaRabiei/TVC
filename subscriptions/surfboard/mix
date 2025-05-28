@@ -11,12 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | ss | @outlineopenkey | 1 = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = xClddmgjnhUX3W3w2Qf5kn
+🔒 | trojan | @privatevpns | 0 = trojan, 51.44.45.149, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | ss | @outlineopenkey | 0 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = OYrj2bSD1QP10H8lcQEOqf
 🔒 | ss | @shadowsockskeys | 5 = ss, 64.176.85.73, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @shadowsockskeys | 5
-URL-TEST = url-test,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @shadowsockskeys | 5
-FALLBACK = fallback,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @shadowsockskeys | 5
+MANUAL = select,URL-TEST,FALLBACK,🔒 | trojan | @privatevpns | 0,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @shadowsockskeys | 5
+URL-TEST = url-test,🔒 | trojan | @privatevpns | 0,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @shadowsockskeys | 5
+FALLBACK = fallback,🔒 | trojan | @privatevpns | 0,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @shadowsockskeys | 5
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL

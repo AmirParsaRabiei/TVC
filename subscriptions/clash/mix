@@ -118,7 +118,8 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🔒 | ss | @outlineopenkey | 1","type":"ss","server":"81.19.141.45","port":443,"password":"xClddmgjnhUX3W3w2Qf5kn","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | trojan | @privatevpns | 0","type":"trojan","server":"51.44.45.149","port":22222,"udp":false,"password":"telegram-id-privatevpns","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"trojan.burgerip.co.uk"}
+  - {"name":"🔒 | ss | @outlineopenkey | 0","type":"ss","server":"194.87.45.189","port":443,"password":"OYrj2bSD1QP10H8lcQEOqf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @shadowsockskeys | 5","type":"ss","server":"64.176.85.73","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -126,7 +127,8 @@ proxy-groups:
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🔒 | ss | @outlineopenkey | 1'
+      - '🔒 | trojan | @privatevpns | 0'
+      - '🔒 | ss | @outlineopenkey | 0'
       - '🔒 | ss | @shadowsockskeys | 5'
   - name: URL-TEST
     type: url-test
@@ -134,14 +136,16 @@ proxy-groups:
     interval: 60
     tolerance: 50
     proxies:
-      - '🔒 | ss | @outlineopenkey | 1'
+      - '🔒 | trojan | @privatevpns | 0'
+      - '🔒 | ss | @outlineopenkey | 0'
       - '🔒 | ss | @shadowsockskeys | 5'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com
     interval: 60
     proxies:
-      - '🔒 | ss | @outlineopenkey | 1'
+      - '🔒 | trojan | @privatevpns | 0'
+      - '🔒 | ss | @outlineopenkey | 0'
       - '🔒 | ss | @shadowsockskeys | 5'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
