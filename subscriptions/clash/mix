@@ -118,55 +118,59 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🔒 | ss | @outlineopenkey | 2","type":"ss","server":"77.83.246.74","port":443,"password":"WuhD2wt6r2Mjn2UVCeFAK1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @kingofilter | 4","type":"ss","server":"103.106.1.92","port":23492,"password":"yMX9WGPgUEcRZmlaa0YHHC","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @outlineopenkey | 1","type":"ss","server":"81.19.141.45","port":443,"password":"xClddmgjnhUX3W3w2Qf5kn","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @VmessProtocol | 0","type":"ss","server":"45.87.175.181","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @outlineopenkey | 3","type":"ss","server":"194.87.45.189","port":443,"password":"aGcncxetyMTUBmUGFAV395","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @outlineopenkey | 0","type":"ss","server":"194.87.45.189","port":443,"password":"OYrj2bSD1QP10H8lcQEOqf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @VmessProtocol | 4","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @outlineopenkey | 2","type":"ss","server":"77.83.246.74","port":443,"password":"WuhD2wt6r2Mjn2UVCeFAK1","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @shadowsockskeys | 5","type":"ss","server":"64.176.85.73","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @outlineopenkey | 3","type":"ss","server":"194.87.45.189","port":443,"password":"aGcncxetyMTUBmUGFAV395","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @outlineopenkey | 5","type":"ss","server":"194.87.45.189","port":443,"password":"Zaxt199mltdECuy6TMEuMo","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @kingofilter | 2","type":"ss","server":"45.87.175.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🔒 | ss | @outlineopenkey | 2'
+      - '🔒 | ss | @kingofilter | 4'
       - '🔒 | ss | @outlineopenkey | 1'
       - '🔒 | ss | @VmessProtocol | 0'
+      - '🔒 | ss | @outlineopenkey | 3'
       - '🔒 | ss | @outlineopenkey | 0'
       - '🔒 | ss | @VmessProtocol | 4'
+      - '🔒 | ss | @outlineopenkey | 2'
       - '🔒 | ss | @shadowsockskeys | 5'
-      - '🔒 | ss | @outlineopenkey | 3'
-      - '🔒 | ss | @outlineopenkey | 5'
+      - '🔒 | ss | @kingofilter | 2'
   - name: URL-TEST
     type: url-test
     url: http://cp.cloudflare.com
     interval: 60
     tolerance: 50
     proxies:
-      - '🔒 | ss | @outlineopenkey | 2'
+      - '🔒 | ss | @kingofilter | 4'
       - '🔒 | ss | @outlineopenkey | 1'
       - '🔒 | ss | @VmessProtocol | 0'
+      - '🔒 | ss | @outlineopenkey | 3'
       - '🔒 | ss | @outlineopenkey | 0'
       - '🔒 | ss | @VmessProtocol | 4'
+      - '🔒 | ss | @outlineopenkey | 2'
       - '🔒 | ss | @shadowsockskeys | 5'
-      - '🔒 | ss | @outlineopenkey | 3'
-      - '🔒 | ss | @outlineopenkey | 5'
+      - '🔒 | ss | @kingofilter | 2'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com
     interval: 60
     proxies:
-      - '🔒 | ss | @outlineopenkey | 2'
+      - '🔒 | ss | @kingofilter | 4'
       - '🔒 | ss | @outlineopenkey | 1'
       - '🔒 | ss | @VmessProtocol | 0'
+      - '🔒 | ss | @outlineopenkey | 3'
       - '🔒 | ss | @outlineopenkey | 0'
       - '🔒 | ss | @VmessProtocol | 4'
+      - '🔒 | ss | @outlineopenkey | 2'
       - '🔒 | ss | @shadowsockskeys | 5'
-      - '🔒 | ss | @outlineopenkey | 3'
-      - '🔒 | ss | @outlineopenkey | 5'
+      - '🔒 | ss | @kingofilter | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
