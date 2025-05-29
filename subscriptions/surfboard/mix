@@ -11,16 +11,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | ss | @VmessProtocol | 4 = ss, 45.87.175.35, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @VmessProtocol | 6 = ss, 45.87.175.35, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 🔒 | ss | @VmessProtocol | 2 = ss, 45.87.175.181, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
 🔒 | ss | @shadowsockskeys | 6 = ss, 64.176.85.73, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
-🔒 | ss | @shadowsockskeys | 9 = ss, 62.60.231.81, 59945, encrypt-method = chacha20-ietf-poly1305, password = FFkwO4g2c3PW7BVNgvzovL
-🔒 | ss | @kingofilter | 4 = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🔒 | ss | @kingofilter | 2 = ss, 185.39.204.12, 16297, encrypt-method = chacha20-ietf-poly1305, password = G0o2hE4eLuR2wwyFao0lsJ
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @VmessProtocol | 4,🔒 | ss | @VmessProtocol | 2,🔒 | ss | @shadowsockskeys | 6,🔒 | ss | @shadowsockskeys | 9,🔒 | ss | @kingofilter | 4,🔒 | ss | @kingofilter | 2
-URL-TEST = url-test,🔒 | ss | @VmessProtocol | 4,🔒 | ss | @VmessProtocol | 2,🔒 | ss | @shadowsockskeys | 6,🔒 | ss | @shadowsockskeys | 9,🔒 | ss | @kingofilter | 4,🔒 | ss | @kingofilter | 2
-FALLBACK = fallback,🔒 | ss | @VmessProtocol | 4,🔒 | ss | @VmessProtocol | 2,🔒 | ss | @shadowsockskeys | 6,🔒 | ss | @shadowsockskeys | 9,🔒 | ss | @kingofilter | 4,🔒 | ss | @kingofilter | 2
+MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @VmessProtocol | 6,🔒 | ss | @VmessProtocol | 2,🔒 | ss | @shadowsockskeys | 6
+URL-TEST = url-test,🔒 | ss | @VmessProtocol | 6,🔒 | ss | @VmessProtocol | 2,🔒 | ss | @shadowsockskeys | 6
+FALLBACK = fallback,🔒 | ss | @VmessProtocol | 6,🔒 | ss | @VmessProtocol | 2,🔒 | ss | @shadowsockskeys | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
