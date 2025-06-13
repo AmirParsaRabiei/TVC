@@ -11,18 +11,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | ss | @shadowsockskeys | 0 = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
 🔒 | ss | @VmessProtocol | 10 = ss, 45.87.175.35, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🔒 | trojan | @privatevpns | 2 = trojan, 15.188.191.223, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 1 = trojan, 3.124.213.122, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | trojan | @privatevpns | 0 = trojan, 18.196.146.50, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | trojan | @privatevpns | 3 = trojan, 15.188.191.223, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
 🔒 | ss | @outlineopenkey | 2 = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = 7cUzcL0EiGij6BCMTZ0Oon
-🔒 | ss | @outlineopenkey | 0 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = Zg2VVReOOiq18u9sbBI6W7
 🔒 | ss | @shadowsockskeys | 10 = ss, 45.139.24.24, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @shadowsockskeys | 0,🔒 | ss | @VmessProtocol | 10,🔒 | trojan | @privatevpns | 2,🔒 | trojan | @privatevpns | 1,🔒 | trojan | @privatevpns | 0,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @shadowsockskeys | 10
-URL-TEST = url-test,🔒 | ss | @shadowsockskeys | 0,🔒 | ss | @VmessProtocol | 10,🔒 | trojan | @privatevpns | 2,🔒 | trojan | @privatevpns | 1,🔒 | trojan | @privatevpns | 0,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @shadowsockskeys | 10
-FALLBACK = fallback,🔒 | ss | @shadowsockskeys | 0,🔒 | ss | @VmessProtocol | 10,🔒 | trojan | @privatevpns | 2,🔒 | trojan | @privatevpns | 1,🔒 | trojan | @privatevpns | 0,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @shadowsockskeys | 10
+MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @VmessProtocol | 10,🔒 | trojan | @privatevpns | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 10
+URL-TEST = url-test,🔒 | ss | @VmessProtocol | 10,🔒 | trojan | @privatevpns | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 10
+FALLBACK = fallback,🔒 | ss | @VmessProtocol | 10,🔒 | trojan | @privatevpns | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 10
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
