@@ -122,7 +122,6 @@ proxies:
   - {"name":"🔒 | ss | @DeamNet_Proxy | 0","type":"ss","server":"series-a2-me.samanehha.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @VmessProtocol | 8","type":"ss","server":"45.87.175.181","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @outlineopenkey | 3","type":"ss","server":"81.19.141.45","port":443,"password":"7cUzcL0EiGij6BCMTZ0Oon","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @outlineopenkey | 1","type":"ss","server":"194.87.45.189","port":443,"password":"Zg2VVReOOiq18u9sbBI6W7","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @outlineopenkey | 2","type":"ss","server":"89.185.84.185","port":443,"password":"JqRcl33NNgusDru0pX28uy","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
@@ -134,7 +133,6 @@ proxy-groups:
       - '🔒 | ss | @DeamNet_Proxy | 0'
       - '🔒 | ss | @VmessProtocol | 8'
       - '🔒 | ss | @outlineopenkey | 3'
-      - '🔒 | ss | @outlineopenkey | 1'
       - '🔒 | ss | @outlineopenkey | 2'
   - name: URL-TEST
     type: url-test
@@ -146,7 +144,6 @@ proxy-groups:
       - '🔒 | ss | @DeamNet_Proxy | 0'
       - '🔒 | ss | @VmessProtocol | 8'
       - '🔒 | ss | @outlineopenkey | 3'
-      - '🔒 | ss | @outlineopenkey | 1'
       - '🔒 | ss | @outlineopenkey | 2'
   - name: FALLBACK
     type: fallback
@@ -157,7 +154,6 @@ proxy-groups:
       - '🔒 | ss | @DeamNet_Proxy | 0'
       - '🔒 | ss | @VmessProtocol | 8'
       - '🔒 | ss | @outlineopenkey | 3'
-      - '🔒 | ss | @outlineopenkey | 1'
       - '🔒 | ss | @outlineopenkey | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
