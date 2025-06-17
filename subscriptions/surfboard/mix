@@ -11,35 +11,28 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | ss | @DeamNet_Proxy | 10 = ss, 144.126.146.38, 30789, encrypt-method = chacha20-ietf-poly1305, password = 8d73e088-dc5a-4dfe-8927-56351ee80407
-🔒 | trojan | @v2ray_free_conf | 0 = trojan, 13.38.226.121, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | ss | @customv2ray | 5 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🔒 | ss | @shadowsockskeys | 3 = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+🔒 | ss | @FreakConfig | 11 = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+🔒 | ss | @outlineopenkey | 0 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = WuMaRFVXF2KtS7kimfAmy7
+🔒 | ss | @outlineopenkey | 4 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = EidG8hV4Uxw4AkKWvmpwjK
 🔒 | ss | @customv2ray | 6 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🔒 | ss | @customv2ray | 3 = ss, 45.87.175.28, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @customv2ray | 5 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🔒 | ss | @shadowsockskeys | 0 = ss, 9.163.232.180, 1490, encrypt-method = chacha20-ietf-poly1305, password = ojcP36n1SouDcnBg9EOZP8
-🔒 | trojan | @DirectVPN | 0 = trojan, 13.38.226.121, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | ss | @v2ray_free_conf | 8 = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
-🔒 | trojan | @privatevpns | 1 = trojan, 13.36.8.60, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | ss | @Outline_FreeKey | 3 = ss, 94.159.96.245, 11902, encrypt-method = chacha20-ietf-poly1305, password = J4RTEvC9ryoVMI5dbPrGhQ
-🔒 | trojan | @privatevpns | 2 = trojan, 18.156.138.162, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | trojan | @v2ray1_ng | 1 = trojan, x11-amsterdam-scaleway-v2-c88f0.devefun.org, 1935, password = Bm92516VO0, udp-delay = true, skip-cert-verify = false, sni = x11-amsterdam-scaleway-v2-c88f0.devefun.org, ws = false
+🔒 | ss | @customv2ray | 3 = ss, 45.87.175.28, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @v2ray_free_conf | 12 = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
 🔒 | ss | @Outline_FreeKey | 0 = ss, 94.159.96.245, 11902, encrypt-method = chacha20-ietf-poly1305, password = ggfqO7GU60QvokcSWEMMk8
-🔒 | trojan | @privatevpns | 3 = trojan, 3.124.169.204, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | ss | @Outline_FreeKey | 3 = ss, 94.159.96.245, 11902, encrypt-method = chacha20-ietf-poly1305, password = J4RTEvC9ryoVMI5dbPrGhQ
+🔒 | ss | @outlineopenkey | 2 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = FqMRZmFDZPk52AYCxdrLeG
+🔒 | ss | @outlineopenkey | 1 = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = uga65t9mETCxEPPVXQbEIO
+🔒 | ss | @outlineopenkey | 3 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = p8PSb2YfBhEtMk4DP7FmGj
 🔒 | ss | @shadowsockskeys | 2 = ss, 77.239.116.76, 8315, encrypt-method = chacha20-ietf-poly1305, password = oHOP1bWFMkQVx3PdbhRlOk
-🔒 | ss | @outlineopenkey | 0 = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = uga65t9mETCxEPPVXQbEIO
-🔒 | ss | @outlineopenkey | 3 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = EidG8hV4Uxw4AkKWvmpwjK
 🔒 | trojan | @DirectVPN | 3 = trojan, 3.124.169.204, 22223, password = telegram-id-directvpn, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
-🔒 | ss | @openkeysfree | 9 = ss, 185.5.38.111, 55988, encrypt-method = chacha20-ietf-poly1305, password = 2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1
+🔒 | ss | @shadowsockskeys | 13 = ss, 45.139.24.24, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
 🔒 | ss | @free4allVPN | 2 = ss, 5.181.21.194, 18660, encrypt-method = chacha20-ietf-poly1305, password = pV5BAzqLZosOfuIrkyoadT
-🔒 | ss | @FreakConfig | 0 = ss, 45.139.24.24, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
-🔒 | ss | @openkeysfree | 10 = ss, mx2.drawnrisha.one, 55988, encrypt-method = chacha20-ietf-poly1305, password = GaKXVig9GWGeCeTvSv3npvU3qYCgbbAMypPQUY9Wm9xJTNCQGCCGKcpg4vYeH6AxwYNY4mLqKrBWvoyNb43CGU3d1sd8tfRp
-🔒 | ss | @openkeysfree | 11 = ss, mx2.drawnrisha.one, 55988, encrypt-method = chacha20-ietf-poly1305, password = 2976kAmfLwdNpCtfWXxo3PmijgKToEYnVNUZ7Wqq8XgbM8NBB8GcvktWdaG77ZkG1z6awQeTKFFin44Re8fK7dZXgT5ez6ZH
-🔒 | ss | @free4allVPN | 9 = ss, 160.19.78.75, 443, encrypt-method = chacha20-ietf-poly1305, password = Nk9asglDzHzjktVzTkvhaA
-🔒 | ss | @DeamNet_Proxy | 15 = ss, 154.205.159.100, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @DeamNet_Proxy | 10,🔒 | trojan | @v2ray_free_conf | 0,🔒 | ss | @customv2ray | 5,🔒 | ss | @shadowsockskeys | 3,🔒 | ss | @customv2ray | 6,🔒 | ss | @customv2ray | 3,🔒 | ss | @shadowsockskeys | 0,🔒 | trojan | @DirectVPN | 0,🔒 | ss | @v2ray_free_conf | 8,🔒 | trojan | @privatevpns | 1,🔒 | ss | @Outline_FreeKey | 3,🔒 | trojan | @privatevpns | 2,🔒 | ss | @Outline_FreeKey | 0,🔒 | trojan | @privatevpns | 3,🔒 | ss | @shadowsockskeys | 2,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 3,🔒 | trojan | @DirectVPN | 3,🔒 | ss | @openkeysfree | 9,🔒 | ss | @free4allVPN | 2,🔒 | ss | @FreakConfig | 0,🔒 | ss | @openkeysfree | 10,🔒 | ss | @openkeysfree | 11,🔒 | ss | @free4allVPN | 9,🔒 | ss | @DeamNet_Proxy | 15
-URL-TEST = url-test,🔒 | ss | @DeamNet_Proxy | 10,🔒 | trojan | @v2ray_free_conf | 0,🔒 | ss | @customv2ray | 5,🔒 | ss | @shadowsockskeys | 3,🔒 | ss | @customv2ray | 6,🔒 | ss | @customv2ray | 3,🔒 | ss | @shadowsockskeys | 0,🔒 | trojan | @DirectVPN | 0,🔒 | ss | @v2ray_free_conf | 8,🔒 | trojan | @privatevpns | 1,🔒 | ss | @Outline_FreeKey | 3,🔒 | trojan | @privatevpns | 2,🔒 | ss | @Outline_FreeKey | 0,🔒 | trojan | @privatevpns | 3,🔒 | ss | @shadowsockskeys | 2,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 3,🔒 | trojan | @DirectVPN | 3,🔒 | ss | @openkeysfree | 9,🔒 | ss | @free4allVPN | 2,🔒 | ss | @FreakConfig | 0,🔒 | ss | @openkeysfree | 10,🔒 | ss | @openkeysfree | 11,🔒 | ss | @free4allVPN | 9,🔒 | ss | @DeamNet_Proxy | 15
-FALLBACK = fallback,🔒 | ss | @DeamNet_Proxy | 10,🔒 | trojan | @v2ray_free_conf | 0,🔒 | ss | @customv2ray | 5,🔒 | ss | @shadowsockskeys | 3,🔒 | ss | @customv2ray | 6,🔒 | ss | @customv2ray | 3,🔒 | ss | @shadowsockskeys | 0,🔒 | trojan | @DirectVPN | 0,🔒 | ss | @v2ray_free_conf | 8,🔒 | trojan | @privatevpns | 1,🔒 | ss | @Outline_FreeKey | 3,🔒 | trojan | @privatevpns | 2,🔒 | ss | @Outline_FreeKey | 0,🔒 | trojan | @privatevpns | 3,🔒 | ss | @shadowsockskeys | 2,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 3,🔒 | trojan | @DirectVPN | 3,🔒 | ss | @openkeysfree | 9,🔒 | ss | @free4allVPN | 2,🔒 | ss | @FreakConfig | 0,🔒 | ss | @openkeysfree | 10,🔒 | ss | @openkeysfree | 11,🔒 | ss | @free4allVPN | 9,🔒 | ss | @DeamNet_Proxy | 15
+MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @FreakConfig | 11,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 4,🔒 | ss | @customv2ray | 6,🔒 | ss | @customv2ray | 5,🔒 | ss | @shadowsockskeys | 0,🔒 | trojan | @v2ray1_ng | 1,🔒 | ss | @customv2ray | 3,🔒 | ss | @v2ray_free_conf | 12,🔒 | ss | @Outline_FreeKey | 0,🔒 | ss | @Outline_FreeKey | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @shadowsockskeys | 2,🔒 | trojan | @DirectVPN | 3,🔒 | ss | @shadowsockskeys | 13,🔒 | ss | @free4allVPN | 2
+URL-TEST = url-test,🔒 | ss | @FreakConfig | 11,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 4,🔒 | ss | @customv2ray | 6,🔒 | ss | @customv2ray | 5,🔒 | ss | @shadowsockskeys | 0,🔒 | trojan | @v2ray1_ng | 1,🔒 | ss | @customv2ray | 3,🔒 | ss | @v2ray_free_conf | 12,🔒 | ss | @Outline_FreeKey | 0,🔒 | ss | @Outline_FreeKey | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @shadowsockskeys | 2,🔒 | trojan | @DirectVPN | 3,🔒 | ss | @shadowsockskeys | 13,🔒 | ss | @free4allVPN | 2
+FALLBACK = fallback,🔒 | ss | @FreakConfig | 11,🔒 | ss | @outlineopenkey | 0,🔒 | ss | @outlineopenkey | 4,🔒 | ss | @customv2ray | 6,🔒 | ss | @customv2ray | 5,🔒 | ss | @shadowsockskeys | 0,🔒 | trojan | @v2ray1_ng | 1,🔒 | ss | @customv2ray | 3,🔒 | ss | @v2ray_free_conf | 12,🔒 | ss | @Outline_FreeKey | 0,🔒 | ss | @Outline_FreeKey | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @outlineopenkey | 1,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @shadowsockskeys | 2,🔒 | trojan | @DirectVPN | 3,🔒 | ss | @shadowsockskeys | 13,🔒 | ss | @free4allVPN | 2
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
