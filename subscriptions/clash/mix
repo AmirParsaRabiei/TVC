@@ -118,63 +118,63 @@ dns:
     - "https://8.8.4.4/dns-query"
 
 proxies:
-  - {"name":"🔒 | ss | @DeamNet_Proxy | 7","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @DeamNet_Proxy | 8","type":"ss","server":"admin.c1.webramz.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @DeamNet_Proxy | 9","type":"ss","server":"freakconfig13.felafel.org","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @customv2ray | 1","type":"ss","server":"api.namasha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @customv2ray | 0","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @DeamNet_Proxy | 9","type":"ss","server":"freakconfig13.felafel.org","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @DeamNet_Proxy | 7","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @shadowsockskeys | 5","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @customv2ray | 0","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @DeamNet_Proxy | 8","type":"ss","server":"admin.c1.webramz.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @v2ray_free_conf | 14","type":"ss","server":"45.87.175.181","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @shadowsockskeys | 2","type":"ss","server":"9.163.232.180","port":1490,"password":"ojcP36n1SouDcnBg9EOZP8","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @free4allVPN | 2","type":"ss","server":"5.181.21.194","port":18660,"password":"pV5BAzqLZosOfuIrkyoadT","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @shadowsockskeys | 15","type":"ss","server":"45.139.24.24","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @shadowsockskeys | 2","type":"ss","server":"9.163.232.180","port":1490,"password":"ojcP36n1SouDcnBg9EOZP8","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
     proxies:
       - URL-TEST
       - FALLBACK
-      - '🔒 | ss | @DeamNet_Proxy | 7'
-      - '🔒 | ss | @DeamNet_Proxy | 8'
-      - '🔒 | ss | @DeamNet_Proxy | 9'
       - '🔒 | ss | @customv2ray | 1'
-      - '🔒 | ss | @customv2ray | 0'
+      - '🔒 | ss | @DeamNet_Proxy | 9'
+      - '🔒 | ss | @DeamNet_Proxy | 7'
       - '🔒 | ss | @shadowsockskeys | 5'
+      - '🔒 | ss | @customv2ray | 0'
+      - '🔒 | ss | @DeamNet_Proxy | 8'
       - '🔒 | ss | @v2ray_free_conf | 14'
-      - '🔒 | ss | @shadowsockskeys | 2'
       - '🔒 | ss | @free4allVPN | 2'
       - '🔒 | ss | @shadowsockskeys | 15'
+      - '🔒 | ss | @shadowsockskeys | 2'
   - name: URL-TEST
     type: url-test
     url: http://cp.cloudflare.com
     interval: 60
     tolerance: 50
     proxies:
-      - '🔒 | ss | @DeamNet_Proxy | 7'
-      - '🔒 | ss | @DeamNet_Proxy | 8'
-      - '🔒 | ss | @DeamNet_Proxy | 9'
       - '🔒 | ss | @customv2ray | 1'
-      - '🔒 | ss | @customv2ray | 0'
+      - '🔒 | ss | @DeamNet_Proxy | 9'
+      - '🔒 | ss | @DeamNet_Proxy | 7'
       - '🔒 | ss | @shadowsockskeys | 5'
+      - '🔒 | ss | @customv2ray | 0'
+      - '🔒 | ss | @DeamNet_Proxy | 8'
       - '🔒 | ss | @v2ray_free_conf | 14'
-      - '🔒 | ss | @shadowsockskeys | 2'
       - '🔒 | ss | @free4allVPN | 2'
       - '🔒 | ss | @shadowsockskeys | 15'
+      - '🔒 | ss | @shadowsockskeys | 2'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com
     interval: 60
     proxies:
-      - '🔒 | ss | @DeamNet_Proxy | 7'
-      - '🔒 | ss | @DeamNet_Proxy | 8'
-      - '🔒 | ss | @DeamNet_Proxy | 9'
       - '🔒 | ss | @customv2ray | 1'
-      - '🔒 | ss | @customv2ray | 0'
+      - '🔒 | ss | @DeamNet_Proxy | 9'
+      - '🔒 | ss | @DeamNet_Proxy | 7'
       - '🔒 | ss | @shadowsockskeys | 5'
+      - '🔒 | ss | @customv2ray | 0'
+      - '🔒 | ss | @DeamNet_Proxy | 8'
       - '🔒 | ss | @v2ray_free_conf | 14'
-      - '🔒 | ss | @shadowsockskeys | 2'
       - '🔒 | ss | @free4allVPN | 2'
       - '🔒 | ss | @shadowsockskeys | 15'
+      - '🔒 | ss | @shadowsockskeys | 2'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
