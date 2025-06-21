@@ -11,16 +11,16 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | ss | @shadowsockskeys | 5 = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🔒 | ss | @customv2ray | 0 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🔒 | ss | @DeamNet_Proxy | 9 = ss, freakconfig13.felafel.org, 443, encrypt-method = chacha20-ietf-poly1305, password = 1xO2cqPazqjGfCfd
 🔒 | ss | @DeamNet_Proxy | 8 = ss, admin.c1.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
-🔒 | ss | @DeamNet_Proxy | 7 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
 🔒 | ss | @customv2ray | 1 = ss, api.namasha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🔒 | ss | @DeamNet_Proxy | 7 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
+🔒 | ss | @shadowsockskeys | 5 = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
+🔒 | ss | @customv2ray | 0 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @shadowsockskeys | 5,🔒 | ss | @customv2ray | 0,🔒 | ss | @DeamNet_Proxy | 9,🔒 | ss | @DeamNet_Proxy | 8,🔒 | ss | @DeamNet_Proxy | 7,🔒 | ss | @customv2ray | 1
-URL-TEST = url-test,🔒 | ss | @shadowsockskeys | 5,🔒 | ss | @customv2ray | 0,🔒 | ss | @DeamNet_Proxy | 9,🔒 | ss | @DeamNet_Proxy | 8,🔒 | ss | @DeamNet_Proxy | 7,🔒 | ss | @customv2ray | 1
-FALLBACK = fallback,🔒 | ss | @shadowsockskeys | 5,🔒 | ss | @customv2ray | 0,🔒 | ss | @DeamNet_Proxy | 9,🔒 | ss | @DeamNet_Proxy | 8,🔒 | ss | @DeamNet_Proxy | 7,🔒 | ss | @customv2ray | 1
+MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @DeamNet_Proxy | 9,🔒 | ss | @DeamNet_Proxy | 8,🔒 | ss | @customv2ray | 1,🔒 | ss | @DeamNet_Proxy | 7,🔒 | ss | @shadowsockskeys | 5,🔒 | ss | @customv2ray | 0
+URL-TEST = url-test,🔒 | ss | @DeamNet_Proxy | 9,🔒 | ss | @DeamNet_Proxy | 8,🔒 | ss | @customv2ray | 1,🔒 | ss | @DeamNet_Proxy | 7,🔒 | ss | @shadowsockskeys | 5,🔒 | ss | @customv2ray | 0
+FALLBACK = fallback,🔒 | ss | @DeamNet_Proxy | 9,🔒 | ss | @DeamNet_Proxy | 8,🔒 | ss | @customv2ray | 1,🔒 | ss | @DeamNet_Proxy | 7,🔒 | ss | @shadowsockskeys | 5,🔒 | ss | @customv2ray | 0
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
