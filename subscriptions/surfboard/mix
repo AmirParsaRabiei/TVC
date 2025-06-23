@@ -11,12 +11,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | ss | @DeamNet_Proxy | 7 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
 🔒 | ss | @DeamNet_Proxy | 9 = ss, freakconfig13.felafel.org, 443, encrypt-method = chacha20-ietf-poly1305, password = 1xO2cqPazqjGfCfd
+🔒 | ss | @DeamNet_Proxy | 7 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @DeamNet_Proxy | 7,🔒 | ss | @DeamNet_Proxy | 9
-URL-TEST = url-test,🔒 | ss | @DeamNet_Proxy | 7,🔒 | ss | @DeamNet_Proxy | 9
-FALLBACK = fallback,🔒 | ss | @DeamNet_Proxy | 7,🔒 | ss | @DeamNet_Proxy | 9
+MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @DeamNet_Proxy | 9,🔒 | ss | @DeamNet_Proxy | 7
+URL-TEST = url-test,🔒 | ss | @DeamNet_Proxy | 9,🔒 | ss | @DeamNet_Proxy | 7
+FALLBACK = fallback,🔒 | ss | @DeamNet_Proxy | 9,🔒 | ss | @DeamNet_Proxy | 7
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
