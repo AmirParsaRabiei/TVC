@@ -35,6 +35,12 @@ To use this project, simply import the subscription links into your preferred cl
 | Clash.Meta | [VMess Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/vmess) | [VLess Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/vless) | [Reality Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/reality) | [Trojan Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/trojan) | [Shadowsocks Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/ss) | Tuic Not Supported  | Hysteria2 Not Supported  |
 | Surfboard | [VMess Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/surfboard/vmess) | VLess Not Supported  | Reality Not Supported  | [Trojan Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/surfboard/trojan) | [Shadowsocks Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/surfboard/ss) | Tuic Not Supported  | Hysteria2 Not Supported  |
 
+
+----
+
+## TODO
+- adds other collector channels and new channels
+
 ## License
 
 This project is licensed under the AGPL-3.0 license - see the LICENSE file for details.
