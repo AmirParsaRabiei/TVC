@@ -112,8 +112,7 @@
                 "BB|10|Type 0",
                 "BB|11|Type 0",
                 "BB|12|Type 0",
-                "BB|13|Type 0",
-                "BB|14|Type 0"
+                "BB|13|Type 0"
             ]
         },
         {
@@ -132,8 +131,7 @@
                 "BB|10|Type 0",
                 "BB|11|Type 0",
                 "BB|12|Type 0",
-                "BB|13|Type 0",
-                "BB|14|Type 0"
+                "BB|13|Type 0"
             ],
             "url": "http://cp.cloudflare.com",
             "interval": "3m",
@@ -411,26 +409,6 @@
             ],
             "mtu": 1280,
             "tag": "BB|13|Type 0",
-            "fake_packets": "1-3",
-            "fake_packets_size": "1-10",
-            "fake_packets_delay": "1-10"
-        },
-        {
-            "type": "wireguard",
-            "private_key": "+PKqyWtT0G14ecvjTFt+9UZqmrK0F/o3EiLh+sW+/2c=",
-            "server": "188.114.96.172",
-            "server_port": 1014,
-            "local_address": [
-                "172.16.0.2/32"
-            ],
-            "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-            "reserved": [
-                45,
-                90,
-                159
-            ],
-            "mtu": 1280,
-            "tag": "BB|14|Type 0",
             "fake_packets": "1-3",
             "fake_packets_size": "1-10",
             "fake_packets_delay": "1-10"
