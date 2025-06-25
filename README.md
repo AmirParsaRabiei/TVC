@@ -39,7 +39,14 @@ To use this project, simply import the subscription links into your preferred cl
 ----
 
 ## TODO
-- adds other collector channels and new channels
+- adds other collector channels and github collector projs and new channels
+- sari tar biad collect bokone
+- ye channel momkene ye config ghadimish kar kone age az kharej ping dad ya az dakhel onam add beshe
+- namiranet ro ham add konm
+- smart tar collect konm va az baghie ham olgo begir
+- va inam begam ke name channel ham bendaz rosh va msln ping gereftnm add shod...
+- subscription ham bara v2ray add konm
+- ba api rubika ya ... biad config haro be sorat file befreste onja... age shod protocol ha ham check konm ke az chiz haye bishtari support kone
 
 ## License
 
