@@ -35,19 +35,6 @@ To use this project, simply import the subscription links into your preferred cl
 | Clash.Meta | [VMess Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/vmess) | [VLess Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/vless) | [Reality Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/reality) | [Trojan Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/trojan) | [Shadowsocks Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/meta/ss) | Tuic Not Supported  | Hysteria2 Not Supported  |
 | Surfboard | [VMess Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/surfboard/vmess) | VLess Not Supported  | Reality Not Supported  | [Trojan Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/surfboard/trojan) | [Shadowsocks Link](https://raw.githubusercontent.com/PacketCipher/TVC/main/subscriptions/surfboard/ss) | Tuic Not Supported  | Hysteria2 Not Supported  |
 
-
-----
-
-## TODO
-- adds other collector channels and github collector projs and new channels
-- sari tar biad collect bokone
-- ye channel momkene ye config ghadimish kar kone age az kharej ping dad ya az dakhel onam add beshe
-- namiranet ro ham add konm
-- smart tar collect konm va az baghie ham olgo begir
-- va inam begam ke name channel ham bendaz rosh va msln ping gereftnm add shod...
-- subscription ham bara v2ray add konm
-- ba api rubika ya ... biad config haro be sorat file befreste onja... age shod protocol ha ham check konm ke az chiz haye bishtari support kone
-
 ## License
 
 This project is licensed under the AGPL-3.0 license - see the LICENSE file for details.

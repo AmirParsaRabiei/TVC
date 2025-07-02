@@ -11,10 +11,19 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🔒 | ss | @DeamNet_Proxy | 16 = ss, 172.233.128.126, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
+🔒 | trojan | @privatevpns | 0 = trojan, 3.126.94.205, 22222, password = telegram-id-privatevpns, udp-delay = true, skip-cert-verify = false, sni = trojan.burgerip.co.uk, ws = false
+🔒 | ss | @shadowsockskeys | 7 = ss, pl.vmagnum.win, 57456, encrypt-method = chacha20-ietf-poly1305, password = a58fa62b4944ddbf
+🔒 | ss | @outlineopenkey | 4 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = DPVomRRqdFGRTJlV0Lx8im
+🔒 | ss | @outlineopenkey | 3 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = qCGaOBdNYmV9dHtt01W1v7
+🔒 | ss | @outlineopenkey | 2 = ss, 194.87.45.189, 443, encrypt-method = chacha20-ietf-poly1305, password = iqmShL5nSz5CSwdS8QFLnT
+🔒 | ss | @shadowsockskeys | 6 = ss, 216.173.70.187, 57456, encrypt-method = chacha20-ietf-poly1305, password = a58fa62b4944ddbf
+🔒 | ss | @shadowsockskeys | 13 = ss, 62.133.63.212, 57456, encrypt-method = chacha20-ietf-poly1305, password = c40641c1f89e7acb
+🔒 | ss | @outlineopenkey | 6 = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = N8nFxGCmMCBJj1z6tHLrzh
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK
-URL-TEST = url-test
-FALLBACK = fallback
+MANUAL = select,URL-TEST,FALLBACK,🔒 | ss | @DeamNet_Proxy | 16,🔒 | trojan | @privatevpns | 0,🔒 | ss | @shadowsockskeys | 7,🔒 | ss | @outlineopenkey | 4,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 6,🔒 | ss | @shadowsockskeys | 13,🔒 | ss | @outlineopenkey | 6
+URL-TEST = url-test,🔒 | ss | @DeamNet_Proxy | 16,🔒 | trojan | @privatevpns | 0,🔒 | ss | @shadowsockskeys | 7,🔒 | ss | @outlineopenkey | 4,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 6,🔒 | ss | @shadowsockskeys | 13,🔒 | ss | @outlineopenkey | 6
+FALLBACK = fallback,🔒 | ss | @DeamNet_Proxy | 16,🔒 | trojan | @privatevpns | 0,🔒 | ss | @shadowsockskeys | 7,🔒 | ss | @outlineopenkey | 4,🔒 | ss | @outlineopenkey | 3,🔒 | ss | @outlineopenkey | 2,🔒 | ss | @shadowsockskeys | 6,🔒 | ss | @shadowsockskeys | 13,🔒 | ss | @outlineopenkey | 6
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
