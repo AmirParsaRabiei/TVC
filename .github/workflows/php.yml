@@ -20,6 +20,34 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '7.4'
+
+      - name: Download and prepare Namira-core
+        run: |
+          # Find the URL for the correct asset (the .tar.gz file) from the latest release
+          ASSET_URL=$(curl -s "https://api.github.com/repos/NamiraNet/namira-core/releases/latest" | grep "browser_download_url.*linux_amd64.tar.gz" | cut -d '"' -f 4)
+
+          if [ -z "$ASSET_URL" ]; then
+            echo "Error: Could not automatically find the latest Namira-core release URL."
+            echo "Attempting to download fallback version v1.1.0."
+            # Correct fallback URL to the .tar.gz file
+            ASSET_URL="https://github.com/NamiraNet/namira-core/releases/download/v1.1.0/namira-core_1.1.0_linux_amd64.tar.gz"
+          fi
+
+          echo "Downloading Namira-core archive from $ASSET_URL"
+          # Download the tar.gz archive
+          curl -L -o namira-core.tar.gz "$ASSET_URL"
+
+          # Extract the binary from the archive
+          echo "Extracting binary..."
+          tar -xzf namira-core.tar.gz namira-core
+
+          # Rename the extracted binary to match the name expected by the PHP script
+          mv namira-core namira-core-linux-amd64
+
+          chmod +x namira-core-linux-amd64
+
+          echo "Verifying Namira-core version:"
+          ./namira-core-linux-amd64 --version
           
       - name: Execute PHP script
         run: |
