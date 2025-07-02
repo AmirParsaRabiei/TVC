@@ -20,6 +20,21 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '7.4'
+
+      - name: Download and prepare Namira-core
+        run: |
+          NAMIRA_LATEST_RELEASE_URL=$(curl -s "https://api.github.com/repos/NamiraNet/namira-core/releases/latest" | grep "browser_download_url.*linux-amd64" | cut -d '"' -f 4)
+          if [ -z "$NAMIRA_LATEST_RELEASE_URL" ]; then
+            echo "Error: Could not find Namira-core linux-amd64 release URL."
+            # Fallback to a known older version if API fails or URL not found, though this is not ideal
+            echo "Attempting to download a fallback version v0.2.7."
+            NAMIRA_LATEST_RELEASE_URL="https://github.com/NamiraNet/namira-core/releases/download/v0.2.7/namira-core-linux-amd64"
+            # exit 1 # Option to fail the job if latest can't be found
+          fi
+          echo "Downloading Namira-core from $NAMIRA_LATEST_RELEASE_URL"
+          curl -L -o namira-core-linux-amd64 $NAMIRA_LATEST_RELEASE_URL
+          chmod +x namira-core-linux-amd64
+          ./namira-core-linux-amd64 --version # Verify download
           
       - name: Execute PHP script
         run: |

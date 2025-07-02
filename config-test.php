@@ -235,13 +235,124 @@ function main()
         // Filter Configs
         // print_r($names);
         $configFile = 'config.txt';
-        filterConfigs($names, $configFile);
+    filterConfigs($names, $configFile); // This now writes Phase 1 results to config.txt
+
+    echo "\nPhase 1 (HiddifyCLI) Testing Done!\n";
+
+    // Phase 2: Namira-core testing
+    echo "\nStarting Phase 2 (Namira-core) Testing...\n";
+    runNamiraCoreTest();
 
         echo "\nTesting Configs Done!\n";
     } catch (Exception $e) {
         echo "An error occurred: " . $e->getMessage();
     }
 }
+
+// Function to detect config type (simplified, assumes typical prefixes)
+function detect_config_type_for_namira($config_line) {
+    if (strpos($config_line, 'vmess://') === 0) return 'vmess';
+    if (strpos($config_line, 'vless://') === 0) return 'vless';
+    if (strpos($config_line, 'trojan://') === 0) return 'trojan';
+    if (strpos($config_line, 'ss://') === 0) return 'ss';
+    if (strpos($config_line, 'tuic://') === 0) return 'tuic';
+    if (strpos($config_line, 'hy2://') === 0) return 'hy2'; // hysteria2
+    return 'unknown';
+}
+
+function runNamiraCoreTest() {
+    $phase1_output_file = 'config.txt'; // Output from HiddifyCLI
+    $namira_input_file = 'namira_input.txt';
+    $namira_output_file = 'namira_output.txt';
+    $final_configs_file = 'config.txt'; // Final output, overwrites original config.txt
+
+    $configs_for_namira = [];
+    $configs_to_bypass_namira = [];
+
+    if (!file_exists($phase1_output_file)) {
+        echo "Phase 1 output file ($phase1_output_file) not found. Skipping Namira-core test.\n";
+        return;
+    }
+
+    $phase1_configs = file($phase1_output_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+
+    if (empty($phase1_configs)) {
+        echo "No configs found after Phase 1. Skipping Namira-core test.\n";
+        // Ensure config.txt is empty if no configs passed phase 1
+        file_put_contents($final_configs_file, "");
+        return;
+    }
+
+    foreach ($phase1_configs as $config) {
+        $type = detect_config_type_for_namira($config);
+        // Intentionally matching lowercase 'ss' from get.php's $configsHash
+        if (in_array($type, ['vmess', 'vless', 'trojan', 'ss'])) {
+            $configs_for_namira[] = $config;
+        } elseif (in_array($type, ['tuic', 'hy2'])) {
+            $configs_to_bypass_namira[] = $config;
+        } else {
+            // Optionally, decide what to do with 'unknown' types. For now, they are dropped.
+            echo "Unknown config type, will be dropped: " . substr($config, 0, 30) . "...\n";
+        }
+    }
+
+    if (!empty($configs_for_namira)) {
+        file_put_contents($namira_input_file, implode("\n", $configs_for_namira));
+
+        // Determine Namira-core binary path
+        // In GitHub Actions, it will be ./namira-core-linux-amd64 (or similar)
+        // For local testing, you might need to adjust this path or ensure namira-core is in PATH
+        $namira_executable = './namira-core-linux-amd64'; // Default for GitHub Actions
+        if (!file_exists($namira_executable)) {
+            // Fallback for local testing if it's in the same directory as php script without suffix
+             if (file_exists('./namira-core')) {
+                $namira_executable = './namira-core';
+             } else {
+                echo "Namira-core executable ($namira_executable or ./namira-core) not found. Cannot perform Phase 2 testing for some configs.\n";
+                // In this case, configs that were meant for Namira are dropped.
+                // Only bypassed configs will proceed.
+                $configs_for_namira = []; // Clear them as they couldn't be tested
+             }
+        }
+
+        if (file_exists($namira_executable)) {
+            $escaped_input = escapeshellarg($namira_input_file);
+            $escaped_output = escapeshellarg($namira_output_file);
+            $command = "{$namira_executable} check --file {$escaped_input} --output {$escaped_output}";
+            echo "Executing Namira-core: $command\n";
+            shell_exec($command);
+
+            if (file_exists($namira_output_file)) {
+                $namira_passed_configs = file($namira_output_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+                $final_configs = array_merge($configs_to_bypass_namira, $namira_passed_configs);
+                echo count($namira_passed_configs) . " configs passed Namira-core.\n";
+            } else {
+                echo "Namira-core output file ($namira_output_file) not found. Assuming no configs passed Namira-core.\n";
+                $final_configs = $configs_to_bypass_namira; // Only bypassed configs proceed
+            }
+        } else {
+            // Namira executable was not found, only bypassed configs proceed.
+             $final_configs = $configs_to_bypass_namira;
+        }
+
+    } else {
+        echo "No configs require Namira-core testing.\n";
+        $final_configs = $configs_to_bypass_namira;
+    }
+
+    if (!empty($final_configs)) {
+        file_put_contents($final_configs_file, implode("\n", $final_configs));
+        echo "Final config file written successfully with " . count($final_configs) . " configs.\n";
+    } else {
+        file_put_contents($final_configs_file, ""); // Ensure file is empty
+        echo "No valid configurations found after both phases. Final config file is empty.\n";
+    }
+
+    // Clean up temporary files
+    if (file_exists($namira_input_file)) unlink($namira_input_file);
+    if (file_exists($namira_output_file)) unlink($namira_output_file);
+}
+
 
 echo "Running The Config-Test Script... \n";
 // Register the shutdown function to stop Hiddify when the script exits
