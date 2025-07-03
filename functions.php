@@ -10,6 +10,60 @@ function is_ip($string)
     }
 }
 
+function fetchConfigsFromUrls(array $urls): array
+{
+    $configs = [];
+    $multiHandle = curl_multi_init();
+    $curlHandles = [];
+
+    foreach ($urls as $url) {
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 5); // 5 seconds connection timeout
+        curl_setopt($ch, CURLOPT_TIMEOUT, 10); // 10 seconds overall timeout
+        curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true); // Follow redirects
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); // Skip SSL verification (useful for some self-signed certs, but use with caution)
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false); // Skip SSL host verification
+
+        curl_multi_add_handle($multiHandle, $ch);
+        $curlHandles[$url] = $ch;
+    }
+
+    $running = null;
+    do {
+        curl_multi_exec($multiHandle, $running);
+        curl_multi_select($multiHandle); // Wait for activity on any curl handle
+    } while ($running > 0);
+
+    foreach ($curlHandles as $url => $ch) {
+        $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        $content = curl_multi_getcontent($ch);
+        $error = curl_error($ch);
+        $errno = curl_errno($ch);
+
+        if ($errno !== CURLE_OK || $httpCode >= 400) {
+            echo "Warning: Failed to fetch from $url. HTTP Code: $httpCode. Error: $error (Code: $errno)\n";
+        } else {
+            if (!empty(trim($content))) {
+                // Split content by newline and add to configs array
+                $lines = explode("\n", $content);
+                foreach ($lines as $line) {
+                    $trimmedLine = trim($line);
+                    if (!empty($trimmedLine)) {
+                        $configs[] = $trimmedLine;
+                    }
+                }
+            }
+        }
+        curl_multi_remove_handle($multiHandle, $ch);
+        curl_close($ch);
+    }
+
+    curl_multi_close($multiHandle);
+    return $configs;
+}
+
 function convertToJson($input)
 {
     // Split the input string by newline
