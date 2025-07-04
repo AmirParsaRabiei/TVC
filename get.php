@@ -6,6 +6,16 @@ error_reporting(E_ERROR | E_PARSE);
 
 // Define the list of subscription URLs
 $subscriptionUrls = [
+    "https://www.namira.dev/api/subscription?country=ir",
+    "https://www.namira.dev/api/subscription?country=de",
+    "https://namira.dev/api/subscription?country=us",
+    "https://namira.dev/api/subscription?country=fr",
+    "https://namira.dev/api/subscription?country=gb",
+    "https://namira.dev/api/subscription?country=nl",
+    "https://namira.dev/api/subscription?country=ca",
+    "https://namira.dev/api/subscription?country=se",
+    "https://namira.dev/api/subscription?country=es",
+    "https://namira.dev/api/subscription?country=fi",
     "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/sub/sub_merge.txt",
     "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/vmess",
     "https://raw.githubusercontent.com/soroushmirzaei/telegram-configs-collector/main/subscribe/protocols/vless",
