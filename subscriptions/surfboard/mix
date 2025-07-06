@@ -11,87 +11,84 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🔒 | trojan | @URL | 5280 = trojan, 108.165.152.55, 2096, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epml.ambercc.filegear-sg.me, ws = false
 🔒 | trojan | @URL | 654 = trojan, 188.164.159.185, 8443, password = Aimer, udp-delay = true, skip-cert-verify = false, sni = epml.ambercc.filegear-sg.me, ws = false
-🔒 | ss | @URL | 78 = ss, 172.233.128.126, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
-🔒 | ss | @URL | 104 = ss, 104.167.197.25, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
-🔒 | trojan | @URL | 637 = trojan, 172.66.47.42, 2053, password = T@_WvT8Ho@LW%w_,, udp-delay = true, skip-cert-verify = false, sni = NOp-55q.pAgEs.dEv, ws = false
 🔒 | trojan | @URL | 644 = trojan, 104.21.6.179, 443, password = 6757b7d6-fa32-4708-b5d1-30e3cf928b51, udp-delay = true, skip-cert-verify = false, sni = ZZzzzZZ.890601.XYZ, ws = false
-🔒 | ss | @URL | 105 = ss, ca225.vpnbook.com, 80, encrypt-method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq
+🔒 | trojan | @URL | 637 = trojan, 172.66.47.42, 2053, password = T@_WvT8Ho@LW%w_,, udp-delay = true, skip-cert-verify = false, sni = NOp-55q.pAgEs.dEv, ws = false
 🔒 | ss | @URL | 103 = ss, 142.4.216.225, 80, encrypt-method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq
+🔒 | ss | @URL | 78 = ss, 172.233.128.126, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
 🔒 | ss | @URL | 2357 = ss, 79.127.233.170, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🔒 | ss | @URL | 104 = ss, 104.167.197.25, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
+🔒 | ss | @URL | 59 = ss, admin.c1.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = 1xO2cqPazqjGfCfd
+🔒 | ss | @URL | 52 = ss, series-a2.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
 🔒 | ss | @URL | 53 = ss, series-a1.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
-🔒 | ss | @URL | 58 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
 🔒 | ss | @URL | 54 = ss, series-a2-mec.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
 🔒 | ss | @URL | 55 = ss, freakconfig13.felafel.org, 443, encrypt-method = chacha20-ietf-poly1305, password = 1xO2cqPazqjGfCfd
-🔒 | ss | @URL | 56 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
-🔒 | ss | @URL | 48 = ss, admin.c4.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = 69MUii7VDwMqh7Hz
-🔒 | ss | @URL | 59 = ss, admin.c1.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = 1xO2cqPazqjGfCfd
+🔒 | ss | @URL | 58 = ss, admin.c2.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = WstuSnlu4ieA9M0L
 🔒 | ss | @URL | 57 = ss, series-a2.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = mps3FwmDjLrWaOVg
 🔒 | ss | @URL | 66 = ss, admin.c3.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🔒 | ss | @URL | 258 = ss, 103.104.247.47, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🔒 | ss | @URL | 52 = ss, series-a2.samanehha.co, 443, encrypt-method = chacha20-ietf-poly1305, password = W74XFALLLuw6m5IA
-🔒 | ss | @URL | 30 = ss, 45.87.175.188, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
-🔒 | ss | @URL | 257 = ss, 45.158.171.66, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🔒 | ss | @URL | 24 = ss, 45.87.175.58, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🔒 | ss | @URL | 126 = ss, 45.87.175.178, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
-🔒 | ss | @URL | 29 = ss, 45.87.175.65, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 🔒 | ss | @URL | 31 = ss, 193.29.139.202, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🔒 | ss | @v2ray_free0 | 11179 = ss, 45.87.175.28, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🔒 | ss | @URL | 247 = ss, 103.104.247.49, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🔒 | ss | @URL | 11015 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = bTiijrKtZBRvL8UCPl5YEq
-🔒 | ss | @URL | 35 = ss, 193.29.139.251, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @URL | 11027 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = bTiijrKtZBRvL8UCPl5YEq
+🔒 | ss | @URL | 29 = ss, 45.87.175.65, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 🔒 | ss | @URL | 50 = ss, 85.210.120.237, 443, encrypt-method = chacha20-ietf-poly1305, password = Bog0ELmMM9DSxDdQ
-🔒 | ss | @URL | 93 = ss, 45.87.175.199, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
 🔒 | ss | @URL | 22 = ss, 45.158.171.110, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
-🔒 | ss | @URL | 11019 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = F5VooRyVfTAgMxB1N2cbvj
-🔒 | ss | @URL | 75 = ss, 45.158.171.141, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🔒 | ss | @URL | 27 = ss, 193.29.139.179, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
-🔒 | ss | @URL | 23 = ss, 45.87.175.157, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🔒 | ss | @URL | 258 = ss, 103.104.247.47, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @URL | 48 = ss, admin.c4.webramz.co, 443, encrypt-method = chacha20-ietf-poly1305, password = 69MUii7VDwMqh7Hz
+🔒 | ss | @URL | 11026 = ss, 89.185.84.185, 443, encrypt-method = chacha20-ietf-poly1305, password = F5VooRyVfTAgMxB1N2cbvj
+🔒 | ss | @URL | 257 = ss, 45.158.171.66, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @URL | 207 = ss, 45.87.175.28, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @URL | 35 = ss, 193.29.139.251, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @URL | 247 = ss, 103.104.247.49, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @URL | 5228 = ss, 45.87.175.10, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
+🔒 | ss | @URL | 5262 = ss, 45.87.175.199, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+🔒 | ss | @URL | 5281 = ss, 45.87.175.178, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🔒 | ss | @URL | 24 = ss, 45.87.175.58, 8080, encrypt-method = chacha20-ietf-poly1305, password = oZIoA69Q8yhcQV8ka3Pa3A
 🔒 | ss | @URL | 19 = ss, 45.87.175.171, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
-🔒 | ss | @URL | 5240 = ss, 45.87.175.171, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+🔒 | ss | @URL | 27 = ss, 193.29.139.179, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🔒 | ss | @URL | 56 = ss, series-a2-mec.varzesh360.co, 443, encrypt-method = chacha20-ietf-poly1305, password = u17T3BvpYaaiuW2c
+🔒 | ss | @URL | 5242 = ss, 45.87.175.157, 8080, encrypt-method = chacha20-ietf-poly1305, password = cvII85TrW6n0OGyfpHVS1u
+🔒 | ss | @URL | 23 = ss, 45.87.175.157, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🔒 | ss | @URL | 76 = ss, beesyar.org, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
 🔒 | ss | @URL | 367 = ss, 45.87.175.166, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🔒 | ss | @URL | 65 = ss, 5.181.21.194, 18660, encrypt-method = chacha20-ietf-poly1305, password = pV5BAzqLZosOfuIrkyoadT
-🔒 | ss | @URL | 26 = ss, 45.87.175.192, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
-🔒 | ss | @URL | 5291 = ss, 45.158.171.151, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
-🔒 | ss | @URL | 32 = ss, de-freevmess.privateip.net, 8443, encrypt-method = aes-256-gcm, password = 5bda2736-81e7-43b4-86fc-286f8f8e6578
-🔒 | ss | @URL | 70 = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🔒 | ss | @URL | 21 = ss, 45.87.175.154, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
-🔒 | ss | @URL | 17 = ss, 193.29.139.189, 8080, encrypt-method = chacha20-ietf-poly1305, password = QCXDxuDlTTMD7jtgHUjIoj
-🔒 | ss | @URL | 79 = ss, 147.45.178.200, 57456, encrypt-method = chacha20-ietf-poly1305, password = c40641c1f89e7acb
-🔒 | ss | @URL | 97 = ss, 45.150.32.13, 14628, encrypt-method = chacha20-ietf-poly1305, password = DKyRdoqQIebdKZVYs5GzW8
-🔒 | ss | @URL | 233 = ss, 185.47.255.22, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @URL | 209 = ss, 51.195.119.47, 1080, encrypt-method = chacha20-ietf-poly1305, password = qXvO7zYU7KeaB0Md7DQLow
-🔒 | ss | @URL | 128 = ss, 204.136.10.115, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
-🔒 | ss | @URL | 11094 = ss, pl.vmagnum.win, 57456, encrypt-method = chacha20-ietf-poly1305, password = a58fa62b4944ddbf
-🔒 | ss | @URL | 100 = ss, 45.144.54.33, 34803, encrypt-method = chacha20-ietf-poly1305, password = LiHQX9cDbdooBHlIg0eiqQ
-🔒 | ss | @URL | 195 = ss, 213.109.147.242, 62685, encrypt-method = chacha20-ietf-poly1305, password = VpKABcOpNNA0l5G2AVOmw8
+🔒 | ss | @URL | 30 = ss, 45.87.175.188, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
 🔒 | ss | @URL | 20 = ss, 45.158.171.146, 8080, encrypt-method = chacha20-ietf-poly1305, password = QCXDxuDlTTMD7jtgHUjIoj
+🔒 | ss | @URL | 32 = ss, de-freevmess.privateip.net, 8443, encrypt-method = aes-256-gcm, password = 5bda2736-81e7-43b4-86fc-286f8f8e6578
+🔒 | ss | @URL | 5213 = ss, 45.158.171.151, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🔒 | ss | @URL | 21 = ss, 45.87.175.154, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🔒 | ss | @URL | 11061 = ss, 81.19.141.45, 443, encrypt-method = chacha20-ietf-poly1305, password = MDImhTq9WydvVveUCuACVp
+🔒 | ss | @URL | 70 = ss, 45.87.175.164, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🔒 | ss | @URL | 5304 = ss, 45.158.171.141, 8080, encrypt-method = chacha20-ietf-poly1305, password = 4a2rfixophdjffa8KVA4Aa
+🔒 | ss | @URL | 209 = ss, 51.195.119.47, 1080, encrypt-method = chacha20-ietf-poly1305, password = qXvO7zYU7KeaB0Md7DQLow
+🔒 | ss | @URL | 11080 = ss, pl.vmagnum.win, 57456, encrypt-method = chacha20-ietf-poly1305, password = a58fa62b4944ddbf
+🔒 | ss | @URL | 97 = ss, 45.150.32.13, 14628, encrypt-method = chacha20-ietf-poly1305, password = DKyRdoqQIebdKZVYs5GzW8
+🔒 | ss | @URL | 128 = ss, 204.136.10.115, 1866, encrypt-method = chacha20-ietf-poly1305, password = oXGp1+ihlfKg826H
+🔒 | ss | @URL | 105 = ss, ca225.vpnbook.com, 80, encrypt-method = chacha20-ietf-poly1305, password = JIhN6rBKkaEboLNXVSv5rq
+🔒 | ss | @URL | 195 = ss, 213.109.147.242, 62685, encrypt-method = chacha20-ietf-poly1305, password = VpKABcOpNNA0l5G2AVOmw8
 🔒 | ss | @URL | 81 = ss, 45.151.62.54, 28825, encrypt-method = chacha20-ietf-poly1305, password = 0zyDRZ1XmNXaaCAN7KEA8a
-🔒 | ss | @URL | 202 = ss, 45.139.24.24, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
-🔒 | ss | @URL | 11109 = ss, 77.83.246.74, 443, encrypt-method = chacha20-ietf-poly1305, password = ZWA0PqjfcYlQRgAvu10qZR
-🔒 | ss | @URL | 11116 = ss, 216.173.70.187, 57456, encrypt-method = chacha20-ietf-poly1305, password = a58fa62b4944ddbf
+🔒 | ss | @URL | 65 = ss, 5.181.21.194, 18660, encrypt-method = chacha20-ietf-poly1305, password = pV5BAzqLZosOfuIrkyoadT
 🔒 | ss | @URL | 60 = ss, 89.23.103.125, 42090, encrypt-method = chacha20-ietf-poly1305, password = uQS5ntVqC00sSKkeNzUiD3
+🔒 | ss | @URL | 202 = ss, 45.139.24.24, 57456, encrypt-method = chacha20-ietf-poly1305, password = 360e21d21977dc11
+🔒 | ss | @URL | 5250 = ss, 193.29.139.138, 8080, encrypt-method = chacha20-ietf-poly1305, password = QCXDxuDlTTMD7jtgHUjIoj
+🔒 | ss | @URL | 233 = ss, 185.47.255.22, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 🔒 | ss | @URL | 74 = ss, 92.118.205.228, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 🔒 | ss | @URL | 64 = ss, 195.181.160.6, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 🔒 | ss | @URL | 237 = ss, 208.67.105.196, 42029, encrypt-method = chacha20-ietf-poly1305, password = SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD
+🔒 | ss | @URL | 11099 = ss, 216.173.70.187, 57456, encrypt-method = chacha20-ietf-poly1305, password = a58fa62b4944ddbf
 🔒 | ss | @URL | 420 = ss, 38.165.233.18, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @URL | 191 = ss, 45.154.206.192, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @URL | 221 = ss, 38.54.45.129, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @URL | 238 = ss, 181.119.30.20, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @URL | 102 = ss, 92.38.171.215, 31348, encrypt-method = chacha20-ietf-poly1305, password = 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR
-🔒 | ss | @URL | 242 = ss, 185.123.101.241, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @URL | 251 = ss, 208.67.105.87, 42501, encrypt-method = chacha20-ietf-poly1305, password = nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf
 🔒 | ss | @URL | 220 = ss, 185.126.239.250, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
-🔒 | ss | @openkeysfree | 11184 = ss, 185.5.38.111, 55988, encrypt-method = chacha20-ietf-poly1305, password = 2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1
-🔒 | ss | @openkeysfree | 11183 = ss, mx2.drawnrisha.one, 55988, encrypt-method = chacha20-ietf-poly1305, password = GaKXVig9GWGeCeTvSv3npvU3qYCgbbAMypPQUY9Wm9xJTNCQGCCGKcpg4vYeH6AxwYNY4mLqKrBWvoyNb43CGU3d1sd8tfRp
-🔒 | ss | @URL | 36 = ss, 138.124.115.157, 1080, encrypt-method = chacha20-ietf-poly1305, password = M-nffO40KlclwbCX9CV1DQ
-🔒 | ss | @URL | 240 = ss, 223.165.4.173, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🔒 | ss | @URL | 17 = ss, 193.29.139.189, 8080, encrypt-method = chacha20-ietf-poly1305, password = QCXDxuDlTTMD7jtgHUjIoj
+🔒 | ss | @URL | 102 = ss, 92.38.171.215, 31348, encrypt-method = chacha20-ietf-poly1305, password = 0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR
+🔒 | ss | @URL | 100 = ss, 45.144.54.33, 34803, encrypt-method = chacha20-ietf-poly1305, password = LiHQX9cDbdooBHlIg0eiqQ
+🔒 | ss | @URL | 11103 = ss, 77.83.246.74, 443, encrypt-method = chacha20-ietf-poly1305, password = ZWA0PqjfcYlQRgAvu10qZR
+🔒 | ss | @URL | 26 = ss, 45.87.175.192, 8080, encrypt-method = chacha20-ietf-poly1305, password = 1RWwXhwfAB5gAEozU4G2Pg
+🔒 | ss | @URL | 213 = ss, 134.255.210.49, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🔒 | ss | @URL | 221 = ss, 38.54.45.129, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 🔒 | ss | @URL | 235 = ss, fin.outlinebot1.ru, 5904, encrypt-method = chacha20-ietf-poly1305, password = 5TZnwPb23pQS39lIucspJw
+🔒 | ss | @URL | 2497 = ss, 154.205.159.100, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
+🔒 | ss | @URL | 212 = ss, 203.23.128.33, 990, encrypt-method = chacha20-ietf-poly1305, password = f8f7aCzcPKbsF8p3
 [Proxy Group]
-MANUAL = select,URL-TEST,FALLBACK,🔒 | trojan | @URL | 5280,🔒 | trojan | @URL | 654,🔒 | ss | @URL | 78,🔒 | ss | @URL | 104,🔒 | trojan | @URL | 637,🔒 | trojan | @URL | 644,🔒 | ss | @URL | 105,🔒 | ss | @URL | 103,🔒 | ss | @URL | 2357,🔒 | ss | @URL | 53,🔒 | ss | @URL | 58,🔒 | ss | @URL | 54,🔒 | ss | @URL | 55,🔒 | ss | @URL | 56,🔒 | ss | @URL | 48,🔒 | ss | @URL | 59,🔒 | ss | @URL | 57,🔒 | ss | @URL | 66,🔒 | ss | @URL | 258,🔒 | ss | @URL | 52,🔒 | ss | @URL | 30,🔒 | ss | @URL | 257,🔒 | ss | @URL | 24,🔒 | ss | @URL | 126,🔒 | ss | @URL | 29,🔒 | ss | @URL | 31,🔒 | ss | @v2ray_free0 | 11179,🔒 | ss | @URL | 247,🔒 | ss | @URL | 11015,🔒 | ss | @URL | 35,🔒 | ss | @URL | 50,🔒 | ss | @URL | 93,🔒 | ss | @URL | 22,🔒 | ss | @URL | 11019,🔒 | ss | @URL | 75,🔒 | ss | @URL | 27,🔒 | ss | @URL | 23,🔒 | ss | @URL | 19,🔒 | ss | @URL | 5240,🔒 | ss | @URL | 367,🔒 | ss | @URL | 65,🔒 | ss | @URL | 26,🔒 | ss | @URL | 5291,🔒 | ss | @URL | 32,🔒 | ss | @URL | 70,🔒 | ss | @URL | 21,🔒 | ss | @URL | 17,🔒 | ss | @URL | 79,🔒 | ss | @URL | 97,🔒 | ss | @URL | 233,🔒 | ss | @URL | 209,🔒 | ss | @URL | 128,🔒 | ss | @URL | 11094,🔒 | ss | @URL | 100,🔒 | ss | @URL | 195,🔒 | ss | @URL | 20,🔒 | ss | @URL | 81,🔒 | ss | @URL | 202,🔒 | ss | @URL | 11109,🔒 | ss | @URL | 11116,🔒 | ss | @URL | 60,🔒 | ss | @URL | 74,🔒 | ss | @URL | 64,🔒 | ss | @URL | 237,🔒 | ss | @URL | 420,🔒 | ss | @URL | 191,🔒 | ss | @URL | 221,🔒 | ss | @URL | 238,🔒 | ss | @URL | 102,🔒 | ss | @URL | 242,🔒 | ss | @URL | 251,🔒 | ss | @URL | 220,🔒 | ss | @openkeysfree | 11184,🔒 | ss | @openkeysfree | 11183,🔒 | ss | @URL | 36,🔒 | ss | @URL | 240,🔒 | ss | @URL | 235
-URL-TEST = url-test,🔒 | trojan | @URL | 5280,🔒 | trojan | @URL | 654,🔒 | ss | @URL | 78,🔒 | ss | @URL | 104,🔒 | trojan | @URL | 637,🔒 | trojan | @URL | 644,🔒 | ss | @URL | 105,🔒 | ss | @URL | 103,🔒 | ss | @URL | 2357,🔒 | ss | @URL | 53,🔒 | ss | @URL | 58,🔒 | ss | @URL | 54,🔒 | ss | @URL | 55,🔒 | ss | @URL | 56,🔒 | ss | @URL | 48,🔒 | ss | @URL | 59,🔒 | ss | @URL | 57,🔒 | ss | @URL | 66,🔒 | ss | @URL | 258,🔒 | ss | @URL | 52,🔒 | ss | @URL | 30,🔒 | ss | @URL | 257,🔒 | ss | @URL | 24,🔒 | ss | @URL | 126,🔒 | ss | @URL | 29,🔒 | ss | @URL | 31,🔒 | ss | @v2ray_free0 | 11179,🔒 | ss | @URL | 247,🔒 | ss | @URL | 11015,🔒 | ss | @URL | 35,🔒 | ss | @URL | 50,🔒 | ss | @URL | 93,🔒 | ss | @URL | 22,🔒 | ss | @URL | 11019,🔒 | ss | @URL | 75,🔒 | ss | @URL | 27,🔒 | ss | @URL | 23,🔒 | ss | @URL | 19,🔒 | ss | @URL | 5240,🔒 | ss | @URL | 367,🔒 | ss | @URL | 65,🔒 | ss | @URL | 26,🔒 | ss | @URL | 5291,🔒 | ss | @URL | 32,🔒 | ss | @URL | 70,🔒 | ss | @URL | 21,🔒 | ss | @URL | 17,🔒 | ss | @URL | 79,🔒 | ss | @URL | 97,🔒 | ss | @URL | 233,🔒 | ss | @URL | 209,🔒 | ss | @URL | 128,🔒 | ss | @URL | 11094,🔒 | ss | @URL | 100,🔒 | ss | @URL | 195,🔒 | ss | @URL | 20,🔒 | ss | @URL | 81,🔒 | ss | @URL | 202,🔒 | ss | @URL | 11109,🔒 | ss | @URL | 11116,🔒 | ss | @URL | 60,🔒 | ss | @URL | 74,🔒 | ss | @URL | 64,🔒 | ss | @URL | 237,🔒 | ss | @URL | 420,🔒 | ss | @URL | 191,🔒 | ss | @URL | 221,🔒 | ss | @URL | 238,🔒 | ss | @URL | 102,🔒 | ss | @URL | 242,🔒 | ss | @URL | 251,🔒 | ss | @URL | 220,🔒 | ss | @openkeysfree | 11184,🔒 | ss | @openkeysfree | 11183,🔒 | ss | @URL | 36,🔒 | ss | @URL | 240,🔒 | ss | @URL | 235
-FALLBACK = fallback,🔒 | trojan | @URL | 5280,🔒 | trojan | @URL | 654,🔒 | ss | @URL | 78,🔒 | ss | @URL | 104,🔒 | trojan | @URL | 637,🔒 | trojan | @URL | 644,🔒 | ss | @URL | 105,🔒 | ss | @URL | 103,🔒 | ss | @URL | 2357,🔒 | ss | @URL | 53,🔒 | ss | @URL | 58,🔒 | ss | @URL | 54,🔒 | ss | @URL | 55,🔒 | ss | @URL | 56,🔒 | ss | @URL | 48,🔒 | ss | @URL | 59,🔒 | ss | @URL | 57,🔒 | ss | @URL | 66,🔒 | ss | @URL | 258,🔒 | ss | @URL | 52,🔒 | ss | @URL | 30,🔒 | ss | @URL | 257,🔒 | ss | @URL | 24,🔒 | ss | @URL | 126,🔒 | ss | @URL | 29,🔒 | ss | @URL | 31,🔒 | ss | @v2ray_free0 | 11179,🔒 | ss | @URL | 247,🔒 | ss | @URL | 11015,🔒 | ss | @URL | 35,🔒 | ss | @URL | 50,🔒 | ss | @URL | 93,🔒 | ss | @URL | 22,🔒 | ss | @URL | 11019,🔒 | ss | @URL | 75,🔒 | ss | @URL | 27,🔒 | ss | @URL | 23,🔒 | ss | @URL | 19,🔒 | ss | @URL | 5240,🔒 | ss | @URL | 367,🔒 | ss | @URL | 65,🔒 | ss | @URL | 26,🔒 | ss | @URL | 5291,🔒 | ss | @URL | 32,🔒 | ss | @URL | 70,🔒 | ss | @URL | 21,🔒 | ss | @URL | 17,🔒 | ss | @URL | 79,🔒 | ss | @URL | 97,🔒 | ss | @URL | 233,🔒 | ss | @URL | 209,🔒 | ss | @URL | 128,🔒 | ss | @URL | 11094,🔒 | ss | @URL | 100,🔒 | ss | @URL | 195,🔒 | ss | @URL | 20,🔒 | ss | @URL | 81,🔒 | ss | @URL | 202,🔒 | ss | @URL | 11109,🔒 | ss | @URL | 11116,🔒 | ss | @URL | 60,🔒 | ss | @URL | 74,🔒 | ss | @URL | 64,🔒 | ss | @URL | 237,🔒 | ss | @URL | 420,🔒 | ss | @URL | 191,🔒 | ss | @URL | 221,🔒 | ss | @URL | 238,🔒 | ss | @URL | 102,🔒 | ss | @URL | 242,🔒 | ss | @URL | 251,🔒 | ss | @URL | 220,🔒 | ss | @openkeysfree | 11184,🔒 | ss | @openkeysfree | 11183,🔒 | ss | @URL | 36,🔒 | ss | @URL | 240,🔒 | ss | @URL | 235
+MANUAL = select,URL-TEST,FALLBACK,🔒 | trojan | @URL | 654,🔒 | trojan | @URL | 644,🔒 | trojan | @URL | 637,🔒 | ss | @URL | 103,🔒 | ss | @URL | 78,🔒 | ss | @URL | 2357,🔒 | ss | @URL | 104,🔒 | ss | @URL | 59,🔒 | ss | @URL | 52,🔒 | ss | @URL | 53,🔒 | ss | @URL | 54,🔒 | ss | @URL | 55,🔒 | ss | @URL | 58,🔒 | ss | @URL | 57,🔒 | ss | @URL | 66,🔒 | ss | @URL | 31,🔒 | ss | @URL | 11027,🔒 | ss | @URL | 29,🔒 | ss | @URL | 50,🔒 | ss | @URL | 22,🔒 | ss | @URL | 258,🔒 | ss | @URL | 48,🔒 | ss | @URL | 11026,🔒 | ss | @URL | 257,🔒 | ss | @URL | 207,🔒 | ss | @URL | 35,🔒 | ss | @URL | 247,🔒 | ss | @URL | 5228,🔒 | ss | @URL | 5262,🔒 | ss | @URL | 5281,🔒 | ss | @URL | 24,🔒 | ss | @URL | 19,🔒 | ss | @URL | 27,🔒 | ss | @URL | 56,🔒 | ss | @URL | 5242,🔒 | ss | @URL | 23,🔒 | ss | @URL | 76,🔒 | ss | @URL | 367,🔒 | ss | @URL | 30,🔒 | ss | @URL | 20,🔒 | ss | @URL | 32,🔒 | ss | @URL | 5213,🔒 | ss | @URL | 21,🔒 | ss | @URL | 11061,🔒 | ss | @URL | 70,🔒 | ss | @URL | 5304,🔒 | ss | @URL | 209,🔒 | ss | @URL | 11080,🔒 | ss | @URL | 97,🔒 | ss | @URL | 128,🔒 | ss | @URL | 105,🔒 | ss | @URL | 195,🔒 | ss | @URL | 81,🔒 | ss | @URL | 65,🔒 | ss | @URL | 60,🔒 | ss | @URL | 202,🔒 | ss | @URL | 5250,🔒 | ss | @URL | 233,🔒 | ss | @URL | 74,🔒 | ss | @URL | 64,🔒 | ss | @URL | 237,🔒 | ss | @URL | 11099,🔒 | ss | @URL | 420,🔒 | ss | @URL | 220,🔒 | ss | @URL | 17,🔒 | ss | @URL | 102,🔒 | ss | @URL | 100,🔒 | ss | @URL | 11103,🔒 | ss | @URL | 26,🔒 | ss | @URL | 213,🔒 | ss | @URL | 221,🔒 | ss | @URL | 235,🔒 | ss | @URL | 2497,🔒 | ss | @URL | 212
+URL-TEST = url-test,🔒 | trojan | @URL | 654,🔒 | trojan | @URL | 644,🔒 | trojan | @URL | 637,🔒 | ss | @URL | 103,🔒 | ss | @URL | 78,🔒 | ss | @URL | 2357,🔒 | ss | @URL | 104,🔒 | ss | @URL | 59,🔒 | ss | @URL | 52,🔒 | ss | @URL | 53,🔒 | ss | @URL | 54,🔒 | ss | @URL | 55,🔒 | ss | @URL | 58,🔒 | ss | @URL | 57,🔒 | ss | @URL | 66,🔒 | ss | @URL | 31,🔒 | ss | @URL | 11027,🔒 | ss | @URL | 29,🔒 | ss | @URL | 50,🔒 | ss | @URL | 22,🔒 | ss | @URL | 258,🔒 | ss | @URL | 48,🔒 | ss | @URL | 11026,🔒 | ss | @URL | 257,🔒 | ss | @URL | 207,🔒 | ss | @URL | 35,🔒 | ss | @URL | 247,🔒 | ss | @URL | 5228,🔒 | ss | @URL | 5262,🔒 | ss | @URL | 5281,🔒 | ss | @URL | 24,🔒 | ss | @URL | 19,🔒 | ss | @URL | 27,🔒 | ss | @URL | 56,🔒 | ss | @URL | 5242,🔒 | ss | @URL | 23,🔒 | ss | @URL | 76,🔒 | ss | @URL | 367,🔒 | ss | @URL | 30,🔒 | ss | @URL | 20,🔒 | ss | @URL | 32,🔒 | ss | @URL | 5213,🔒 | ss | @URL | 21,🔒 | ss | @URL | 11061,🔒 | ss | @URL | 70,🔒 | ss | @URL | 5304,🔒 | ss | @URL | 209,🔒 | ss | @URL | 11080,🔒 | ss | @URL | 97,🔒 | ss | @URL | 128,🔒 | ss | @URL | 105,🔒 | ss | @URL | 195,🔒 | ss | @URL | 81,🔒 | ss | @URL | 65,🔒 | ss | @URL | 60,🔒 | ss | @URL | 202,🔒 | ss | @URL | 5250,🔒 | ss | @URL | 233,🔒 | ss | @URL | 74,🔒 | ss | @URL | 64,🔒 | ss | @URL | 237,🔒 | ss | @URL | 11099,🔒 | ss | @URL | 420,🔒 | ss | @URL | 220,🔒 | ss | @URL | 17,🔒 | ss | @URL | 102,🔒 | ss | @URL | 100,🔒 | ss | @URL | 11103,🔒 | ss | @URL | 26,🔒 | ss | @URL | 213,🔒 | ss | @URL | 221,🔒 | ss | @URL | 235,🔒 | ss | @URL | 2497,🔒 | ss | @URL | 212
+FALLBACK = fallback,🔒 | trojan | @URL | 654,🔒 | trojan | @URL | 644,🔒 | trojan | @URL | 637,🔒 | ss | @URL | 103,🔒 | ss | @URL | 78,🔒 | ss | @URL | 2357,🔒 | ss | @URL | 104,🔒 | ss | @URL | 59,🔒 | ss | @URL | 52,🔒 | ss | @URL | 53,🔒 | ss | @URL | 54,🔒 | ss | @URL | 55,🔒 | ss | @URL | 58,🔒 | ss | @URL | 57,🔒 | ss | @URL | 66,🔒 | ss | @URL | 31,🔒 | ss | @URL | 11027,🔒 | ss | @URL | 29,🔒 | ss | @URL | 50,🔒 | ss | @URL | 22,🔒 | ss | @URL | 258,🔒 | ss | @URL | 48,🔒 | ss | @URL | 11026,🔒 | ss | @URL | 257,🔒 | ss | @URL | 207,🔒 | ss | @URL | 35,🔒 | ss | @URL | 247,🔒 | ss | @URL | 5228,🔒 | ss | @URL | 5262,🔒 | ss | @URL | 5281,🔒 | ss | @URL | 24,🔒 | ss | @URL | 19,🔒 | ss | @URL | 27,🔒 | ss | @URL | 56,🔒 | ss | @URL | 5242,🔒 | ss | @URL | 23,🔒 | ss | @URL | 76,🔒 | ss | @URL | 367,🔒 | ss | @URL | 30,🔒 | ss | @URL | 20,🔒 | ss | @URL | 32,🔒 | ss | @URL | 5213,🔒 | ss | @URL | 21,🔒 | ss | @URL | 11061,🔒 | ss | @URL | 70,🔒 | ss | @URL | 5304,🔒 | ss | @URL | 209,🔒 | ss | @URL | 11080,🔒 | ss | @URL | 97,🔒 | ss | @URL | 128,🔒 | ss | @URL | 105,🔒 | ss | @URL | 195,🔒 | ss | @URL | 81,🔒 | ss | @URL | 65,🔒 | ss | @URL | 60,🔒 | ss | @URL | 202,🔒 | ss | @URL | 5250,🔒 | ss | @URL | 233,🔒 | ss | @URL | 74,🔒 | ss | @URL | 64,🔒 | ss | @URL | 237,🔒 | ss | @URL | 11099,🔒 | ss | @URL | 420,🔒 | ss | @URL | 220,🔒 | ss | @URL | 17,🔒 | ss | @URL | 102,🔒 | ss | @URL | 100,🔒 | ss | @URL | 11103,🔒 | ss | @URL | 26,🔒 | ss | @URL | 213,🔒 | ss | @URL | 221,🔒 | ss | @URL | 235,🔒 | ss | @URL | 2497,🔒 | ss | @URL | 212
 [Rule]
 GEOIP,IR,DIRECT
 FINAL,MANUAL
