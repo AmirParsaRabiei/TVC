@@ -119,92 +119,108 @@ dns:
 
 proxies:
   - {"name":"🔒 | ss | @URL | 61","type":"ss","server":"172.233.128.126","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | trojan | @URL | 525","type":"trojan","server":"188.164.159.234","port":2083,"udp":false,"password":"Aimer","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"epml.ambercc.filegear-sg.me"}
+  - {"name":"🔒 | trojan | @URL | 521","type":"trojan","server":"46.254.92.142","port":2087,"udp":false,"password":"Aimer","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"epml.ambercc.filegear-sg.me"}
+  - {"name":"🔒 | trojan | @URL | 522","type":"trojan","server":"199.34.228.178","port":8443,"udp":false,"password":"Aimer","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"epmk.ambercc.filegear-sg.me"}
   - {"name":"🔒 | trojan | @URL | 519","type":"trojan","server":"188.164.159.185","port":8443,"udp":false,"password":"Aimer","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"epml.ambercc.filegear-sg.me"}
-  - {"name":"🔒 | trojan | @URL | 502","type":"trojan","server":"172.66.47.42","port":2053,"udp":false,"password":"T@_WvT8Ho@LW%w_,","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"NOp-55q.pAgEs.dEv"}
   - {"name":"8ZQi@172.66.44.230:8443?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&path=/tro8sFW1S91B6sZrM1?ed=2560&Host=Koma-YT.PAGeS.Dev#🔒 | trojan | @URL | 500","type":"trojan","server":"8r<[9'l6hAO","port":"","udp":false,"password":"","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome"}
+  - {"name":"🔒 | trojan | @URL | 524","type":"trojan","server":"188.164.159.214","port":2083,"udp":false,"password":"Aimer","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"epmk.ambercc.filegear-sg.me"}
+  - {"name":"🔒 | trojan | @URL | 5028","type":"trojan","server":"azadnet-9ya.pages.dev","port":443,"udp":false,"password":"trojan","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"azadnet-9ya.pages.dev"}
+  - {"name":"🔒 | trojan | @URL | 502","type":"trojan","server":"172.66.47.42","port":2053,"udp":false,"password":"T@_WvT8Ho@LW%w_,","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"NOp-55q.pAgEs.dEv"}
   - {"name":"🔒 | ss | @URL | 2248","type":"ss","server":"79.127.233.170","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 2276","type":"ss","server":"64.74.163.130","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 113","type":"ss","server":"ca225.vpnbook.com","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 110","type":"ss","server":"104.167.197.25","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 108","type":"ss","server":"142.4.216.225","port":80,"password":"JIhN6rBKkaEboLNXVSv5rq","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @ConfigsHubPlus | 17810","type":"ss","server":"172.187.105.25","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @vpnx1x | 17777","type":"ss","server":"series-a2.varzesh360.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @v2rayNG_Dani | 17717","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @hddify | 17785","type":"ss","server":"freakconfig13.felafel.org","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @hddify | 17781","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @ConfigsHubPlus | 17813","type":"ss","server":"74.177.199.135","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @v2rayNG_Dani | 17731","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 26","type":"ss","server":"admin.c1.webramz.co","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @vpnx1x | 17774","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 17554","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 110","type":"ss","server":"104.167.197.25","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 5004","type":"ss","server":"209.200.246.174","port":8388,"password":"OTc3Z","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 4999","type":"ss","server":"23.177.185.63","port":49454,"password":"eLeatFt8IhNuwJoRco1Muy","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @v2ray_aq | 17787","type":"ss","server":"172.187.105.25","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @mrsoulb | 17860","type":"ss","server":"admin.c1.webramz.co","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @vpnx1x | 17795","type":"ss","server":"series-a2.varzesh360.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 24","type":"ss","server":"admin.c2.webramz.co","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 32","type":"ss","server":"series-a1.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 29","type":"ss","server":"series-a2-mec.varzesh360.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 21","type":"ss","server":"series-a2-mec.samanehha.co","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @mrsoulb | 17869","type":"ss","server":"74.177.199.135","port":443,"password":"u17T3BvpYaaiuW2c","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 41","type":"ss","server":"85.210.120.237","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 17","type":"ss","server":"45.158.171.66","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @configshere | 17750","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 5000","type":"ss","server":"45.158.171.110","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 167","type":"ss","server":"45.87.175.65","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 166","type":"ss","server":"103.104.247.49","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 187","type":"ss","server":"193.29.139.202","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 174","type":"ss","server":"45.87.175.22","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 17548","type":"ss","server":"admin.c1.webramz.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @ConfigsHubPlus | 17825","type":"ss","server":"74.177.199.135","port":443,"password":"WstuSnlu4ieA9M0L","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 33","type":"ss","server":"freakconfig13.felafel.org","port":443,"password":"1xO2cqPazqjGfCfd","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @configshere | 17766","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"mps3FwmDjLrWaOVg","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 172","type":"ss","server":"103.104.247.47","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 173","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 5009","type":"ss","server":"209.200.246.174","port":8388,"password":"OTc3Z","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 166","type":"ss","server":"103.104.247.49","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 178","type":"ss","server":"45.87.175.28","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @mrsoulb | 17839","type":"ss","server":"admin.c4.webramz.co","port":443,"password":"69MUii7VDwMqh7Hz","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 261","type":"ss","server":"admin.c3.webramz.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 181","type":"ss","server":"45.87.175.58","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | trojan | @URL | 5031","type":"trojan","server":"104.21.75.120","port":2053,"udp":false,"password":"100b5163-fbb8-425d-9621-44d119555aa4","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"MaHSA2.cffoRm.SitE"}
-  - {"name":"🔒 | ss | @URL | 5011","type":"ss","server":"uk.opensocks.site","port":8388,"password":"MjJhY","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 362","type":"ss","server":"193.29.139.251","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 55","type":"ss","server":"45.158.171.146","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 165","type":"ss","server":"45.87.175.199","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 4997","type":"ss","server":"45.87.175.178","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 177","type":"ss","server":"45.87.175.92","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 30","type":"ss","server":"series-a2.samanehha.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 5012","type":"ss","server":"h110vpnus.outlinekeys.net","port":9483,"password":"9wYslp0RKspj0KpukEljww","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 9","type":"ss","server":"45.158.171.132","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 16","type":"ss","server":"45.158.171.141","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 75","type":"ss","server":"147.45.178.200","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 45","type":"ss","server":"de-freevmess.privateip.net","port":8443,"password":"5bda2736-81e7-43b4-86fc-286f8f8e6578","cipher":"aes-256-gcm"}
-  - {"name":"🔒 | ss | @URL | 12","type":"ss","server":"45.87.175.157","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17","type":"ss","server":"45.158.171.66","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 187","type":"ss","server":"193.29.139.202","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 28","type":"ss","server":"admin.c4.webramz.co","port":443,"password":"69MUii7VDwMqh7Hz","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 173","type":"ss","server":"45.87.175.35","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 362","type":"ss","server":"193.29.139.251","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17547","type":"ss","server":"admin.c1.webramz.co","port":443,"password":"W74XFALLLuw6m5IA","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @v2rayNG_Dani | 17748","type":"ss","server":"series-a2-me.varzesh360.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 13","type":"ss","server":"45.158.171.110","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 357","type":"ss","server":"45.87.175.178","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 174","type":"ss","server":"45.87.175.22","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 167","type":"ss","server":"45.87.175.65","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 181","type":"ss","server":"45.87.175.58","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 165","type":"ss","server":"45.87.175.199","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 261","type":"ss","server":"admin.c3.webramz.co","port":443,"password":"Bog0ELmMM9DSxDdQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 4949","type":"ss","server":"45.87.175.190","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 228","type":"ss","server":"45.87.175.188","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 20","type":"ss","server":"45.87.175.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 5014","type":"ss","server":"193.29.139.179","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 15","type":"ss","server":"45.87.175.154","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 9","type":"ss","server":"45.158.171.132","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 4965","type":"ss","server":"45.158.171.132","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 55","type":"ss","server":"45.158.171.146","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17607","type":"ss","server":"45.87.175.192","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 57","type":"ss","server":"45.87.175.166","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 156","type":"ss","server":"uk.opensocks.site","port":8388,"password":"MjJhY","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 75","type":"ss","server":"147.45.178.200","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17631","type":"ss","server":"81.19.141.45","port":443,"password":"lyW4LuDWJgHDAnC3ZDZtsV","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17611","type":"ss","server":"81.19.141.45","port":443,"password":"1PRi11zoil3xDSYINHmlxt","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17629","type":"ss","server":"81.19.141.45","port":443,"password":"RX6QYMCvlzpQxTC0OicOs6","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17630","type":"ss","server":"81.19.141.45","port":443,"password":"n19MtLUDjpgo31bkVzPbXU","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 163","type":"ss","server":"beesyar.org","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 77","type":"ss","server":"194.87.31.68","port":443,"password":"R2UGad61FGO5","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 5005","type":"ss","server":"83.147.18.163","port":8388,"password":"MjJhY","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 16","type":"ss","server":"45.158.171.141","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 2264","type":"ss","server":"45.158.171.136","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 115","type":"ss","server":"51.195.119.47","port":1080,"password":"qXvO7zYU7KeaB0Md7DQLow","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 17631","type":"ss","server":"81.19.141.45","port":443,"password":"RX6QYMCvlzpQxTC0OicOs6","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 4980","type":"ss","server":"193.29.139.206","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @v2ray_aq | 17759","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17559","type":"ss","server":"45.87.175.164","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 15","type":"ss","server":"45.87.175.154","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 45","type":"ss","server":"de-freevmess.privateip.net","port":8443,"password":"5bda2736-81e7-43b4-86fc-286f8f8e6578","cipher":"aes-256-gcm"}
+  - {"name":"🔒 | ss | @URL | 5008","type":"ss","server":"193.29.139.189","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @v2rayNG_Dani | 17743","type":"ss","server":"45.144.49.140","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17593","type":"ss","server":"pl.vmagnum.win","port":57456,"password":"a58fa62b4944ddbf","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 96","type":"ss","server":"204.136.10.115","port":1866,"password":"oXGp1+ihlfKg826H","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 189","type":"ss","server":"213.109.147.242","port":62685,"password":"VpKABcOpNNA0l5G2AVOmw8","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 77","type":"ss","server":"194.87.31.68","port":443,"password":"R2UGad61FGO5","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 17572","type":"ss","server":"45.87.175.192","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | trojan | @URL | 454","type":"trojan","server":"104.21.6.179","port":443,"udp":false,"password":"6757b7d6-fa32-4708-b5d1-30e3cf928b51","skip-cert-verify":false,"network":"tcp","client-fingerprint":"chrome","sni":"ZZzzzZZ.890601.XYZ"}
-  - {"name":"🔒 | ss | @NamiraNet | 17830","type":"ss","server":"45.87.175.190","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 145","type":"ss","server":"45.144.54.33","port":34803,"password":"LiHQX9cDbdooBHlIg0eiqQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 17594","type":"ss","server":"pl.vmagnum.win","port":57456,"password":"a58fa62b4944ddbf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 177","type":"ss","server":"45.87.175.92","port":8080,"password":"oZIoA69Q8yhcQV8ka3Pa3A","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 57","type":"ss","server":"45.87.175.166","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 163","type":"ss","server":"beesyar.org","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 83","type":"ss","server":"war.ssvpnapp.win","port":57456,"password":"d3837224ed465f00","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 85","type":"ss","server":"45.144.48.63","port":57456,"password":"d3837224ed465f00","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 103","type":"ss","server":"45.139.24.24","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 190","type":"ss","server":"89.23.103.125","port":42090,"password":"uQS5ntVqC00sSKkeNzUiD3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 280","type":"ss","server":"138.124.115.157","port":1080,"password":"M-nffO40KlclwbCX9CV1DQ","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 4976","type":"ss","server":"81.19.141.45","port":443,"password":"1PRi11zoil3xDSYINHmlxt","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 171","type":"ss","server":"208.67.105.196","port":42029,"password":"SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 162","type":"ss","server":"45.151.62.54","port":28825,"password":"0zyDRZ1XmNXaaCAN7KEA8a","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 50","type":"ss","server":"195.181.160.6","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 142","type":"ss","server":"tr.vpnsparta.pro","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 143","type":"ss","server":"62.133.63.212","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 17617","type":"ss","server":"216.173.70.187","port":57456,"password":"a58fa62b4944ddbf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 94","type":"ss","server":"45.154.206.192","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 5015","type":"ss","server":"92.38.171.215","port":31348,"password":"0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 271","type":"ss","server":"185.123.101.241","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 159","type":"ss","server":"208.67.105.87","port":42501,"password":"nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @v2ray_aq | 17755","type":"ss","server":"216.173.70.187","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 158","type":"ss","server":"45.87.175.192","port":8080,"password":"1RWwXhwfAB5gAEozU4G2Pg","cipher":"chacha20-ietf-poly1305"}
-  - {"name":"🔒 | ss | @URL | 154","type":"ss","server":"193.29.139.189","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 4988","type":"ss","server":"193.29.139.206","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 176","type":"ss","server":"77.246.102.112","port":60117,"password":"Y1hjiUmSgucgzYYJ0WtqwW","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 49","type":"ss","server":"91.99.201.235","port":80,"password":"7bgifu8UsiF/RdGesX5zjW6kEqHYKhslGqaccf2HyLA=","cipher":"aes-256-gcm"}
+  - {"name":"🔒 | ss | @URL | 145","type":"ss","server":"45.144.54.33","port":34803,"password":"LiHQX9cDbdooBHlIg0eiqQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 4987","type":"ss","server":"193.29.139.233","port":8080,"password":"QCXDxuDlTTMD7jtgHUjIoj","cipher":"chacha20-ietf-poly1305"}
   - {"name":"🔒 | ss | @URL | 339","type":"ss","server":"45.87.175.171","port":8080,"password":"cvII85TrW6n0OGyfpHVS1u","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 17606","type":"ss","server":"45.144.48.63","port":57456,"password":"d3837224ed465f00","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 83","type":"ss","server":"war.ssvpnapp.win","port":57456,"password":"d3837224ed465f00","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 5000","type":"ss","server":"45.158.171.136","port":8080,"password":"4a2rfixophdjffa8KVA4Aa","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 159","type":"ss","server":"208.67.105.87","port":42501,"password":"nq96KftrZAj3LuFQESqmn44Mo5oCuo2cipoEsae25mrmHG2oJ4VT37scBfVBpN5DWtUELZutVhhXs8Le5B8fZ9hLn9ytwvbf","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 5009","type":"ss","server":"h110vpnus.outlinekeys.net","port":9483,"password":"9wYslp0RKspj0KpukEljww","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 171","type":"ss","server":"208.67.105.196","port":42029,"password":"SjdGCHwafjktt1rzpGxTKYTvVBWb8Xa6E5DTr6MzbdHQSwvpLiDczj3n6MBjy2uyFSzgqgvCWsDQmpM4VQzfPzyGYF58wdyD","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 103","type":"ss","server":"45.139.24.24","port":57456,"password":"360e21d21977dc11","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 2247","type":"ss","server":"181.119.30.20","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 280","type":"ss","server":"138.124.115.157","port":1080,"password":"M-nffO40KlclwbCX9CV1DQ","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 164","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"FjgGNNHQiELzxXmaHRxxtQbxDDvGXFxYdTbYe91JKZsjvKLHoY9rn9ruYE45377WjtU3m4kmXQZDXiHBJsgVfhmpawEoGvq9","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 162","type":"ss","server":"45.151.62.54","port":28825,"password":"0zyDRZ1XmNXaaCAN7KEA8a","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @openkeysfree | 17687","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"GaKXVig9GWGeCeTvSv3npvU3qYCgbbAMypPQUY9Wm9xJTNCQGCCGKcpg4vYeH6AxwYNY4mLqKrBWvoyNb43CGU3d1sd8tfRp","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 50","type":"ss","server":"195.181.160.6","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @openkeysfree | 17686","type":"ss","server":"mx2.drawnrisha.one","port":55988,"password":"2976kAmfLwdNpCtfWXxo3PmijgKToEYnVNUZ7Wqq8XgbM8NBB8GcvktWdaG77ZkG1z6awQeTKFFin44Re8fK7dZXgT5ez6ZH","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 144","type":"ss","server":"185.47.255.22","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @openkeysfree | 17688","type":"ss","server":"185.5.38.111","port":55988,"password":"2EmWRS1TkS3TkxKApnrihb3aHjDSXRvT1T1K9U2Bruxrnp5A8zmpTxwwTNje6BkVqmn9BgRF6pq8qoRHCfZdcah7BLbjrpT1","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 94","type":"ss","server":"45.154.206.192","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 143","type":"ss","server":"62.133.63.212","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 142","type":"ss","server":"tr.vpnsparta.pro","port":57456,"password":"c40641c1f89e7acb","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 271","type":"ss","server":"185.123.101.241","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 2353","type":"ss","server":"94.131.127.239","port":49072,"password":"XKa5DRhnuBdgfKeZNXff5po96u2RC5VaBZUSToCGoCH4ZBhoGMZcrT9CY646rH3nWRn24d7FEEujr4QwUDFuYQFAoHjtfAgN","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 5002","type":"ss","server":"92.38.171.215","port":31348,"password":"0RsrcFJ1vOsWEqg3P55hvaacKfuShT0cc1h0t8AD0NA8u1uR","cipher":"chacha20-ietf-poly1305"}
+  - {"name":"🔒 | ss | @URL | 326","type":"ss","server":"223.165.4.173","port":990,"password":"f8f7aCzcPKbsF8p3","cipher":"chacha20-ietf-poly1305"}
 proxy-groups:
   - name: MANUAL
     type: select
@@ -212,92 +228,108 @@ proxy-groups:
       - URL-TEST
       - FALLBACK
       - '🔒 | ss | @URL | 61'
+      - '🔒 | trojan | @URL | 525'
+      - '🔒 | trojan | @URL | 521'
+      - '🔒 | trojan | @URL | 522'
       - '🔒 | trojan | @URL | 519'
-      - '🔒 | trojan | @URL | 502'
       - '8ZQi@172.66.44.230:8443?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&path=/tro8sFW1S91B6sZrM1?ed=2560&Host=Koma-YT.PAGeS.Dev#🔒 | trojan | @URL | 500'
+      - '🔒 | trojan | @URL | 524'
+      - '🔒 | trojan | @URL | 5028'
+      - '🔒 | trojan | @URL | 502'
       - '🔒 | ss | @URL | 2248'
-      - '🔒 | ss | @URL | 2276'
       - '🔒 | ss | @URL | 113'
-      - '🔒 | ss | @URL | 110'
       - '🔒 | ss | @URL | 108'
-      - '🔒 | ss | @ConfigsHubPlus | 17810'
-      - '🔒 | ss | @vpnx1x | 17777'
-      - '🔒 | ss | @v2rayNG_Dani | 17717'
-      - '🔒 | ss | @hddify | 17785'
-      - '🔒 | ss | @hddify | 17781'
-      - '🔒 | ss | @ConfigsHubPlus | 17813'
-      - '🔒 | ss | @v2rayNG_Dani | 17731'
-      - '🔒 | ss | @URL | 26'
-      - '🔒 | ss | @vpnx1x | 17774'
-      - '🔒 | ss | @URL | 17554'
+      - '🔒 | ss | @URL | 110'
+      - '🔒 | ss | @URL | 5004'
+      - '🔒 | ss | @URL | 4999'
+      - '🔒 | ss | @v2ray_aq | 17787'
+      - '🔒 | ss | @mrsoulb | 17860'
+      - '🔒 | ss | @vpnx1x | 17795'
+      - '🔒 | ss | @URL | 24'
+      - '🔒 | ss | @URL | 32'
+      - '🔒 | ss | @URL | 29'
+      - '🔒 | ss | @URL | 21'
+      - '🔒 | ss | @mrsoulb | 17869'
       - '🔒 | ss | @URL | 41'
-      - '🔒 | ss | @URL | 17'
-      - '🔒 | ss | @configshere | 17750'
-      - '🔒 | ss | @URL | 5000'
-      - '🔒 | ss | @URL | 167'
-      - '🔒 | ss | @URL | 166'
-      - '🔒 | ss | @URL | 187'
-      - '🔒 | ss | @URL | 174'
-      - '🔒 | ss | @URL | 17548'
+      - '🔒 | ss | @ConfigsHubPlus | 17825'
+      - '🔒 | ss | @URL | 33'
+      - '🔒 | ss | @configshere | 17766'
       - '🔒 | ss | @URL | 172'
-      - '🔒 | ss | @URL | 173'
-      - '🔒 | ss | @URL | 5009'
+      - '🔒 | ss | @URL | 166'
       - '🔒 | ss | @URL | 178'
-      - '🔒 | ss | @mrsoulb | 17839'
-      - '🔒 | ss | @URL | 261'
-      - '🔒 | ss | @URL | 181'
-      - '🔒 | trojan | @URL | 5031'
-      - '🔒 | ss | @URL | 5011'
-      - '🔒 | ss | @URL | 362'
-      - '🔒 | ss | @URL | 55'
-      - '🔒 | ss | @URL | 165'
-      - '🔒 | ss | @URL | 4997'
+      - '🔒 | ss | @URL | 177'
       - '🔒 | ss | @URL | 30'
-      - '🔒 | ss | @URL | 5012'
-      - '🔒 | ss | @URL | 9'
-      - '🔒 | ss | @URL | 16'
-      - '🔒 | ss | @URL | 75'
-      - '🔒 | ss | @URL | 45'
-      - '🔒 | ss | @URL | 12'
+      - '🔒 | ss | @URL | 17'
+      - '🔒 | ss | @URL | 187'
+      - '🔒 | ss | @URL | 28'
+      - '🔒 | ss | @URL | 173'
+      - '🔒 | ss | @URL | 362'
+      - '🔒 | ss | @URL | 17547'
+      - '🔒 | ss | @v2rayNG_Dani | 17748'
+      - '🔒 | ss | @URL | 13'
+      - '🔒 | ss | @URL | 357'
+      - '🔒 | ss | @URL | 174'
+      - '🔒 | ss | @URL | 167'
+      - '🔒 | ss | @URL | 181'
+      - '🔒 | ss | @URL | 165'
+      - '🔒 | ss | @URL | 261'
+      - '🔒 | ss | @URL | 4949'
       - '🔒 | ss | @URL | 228'
-      - '🔒 | ss | @URL | 20'
-      - '🔒 | ss | @URL | 5014'
-      - '🔒 | ss | @URL | 15'
-      - '🔒 | ss | @URL | 115'
+      - '🔒 | ss | @URL | 9'
+      - '🔒 | ss | @URL | 4965'
+      - '🔒 | ss | @URL | 55'
+      - '🔒 | ss | @URL | 17607'
+      - '🔒 | ss | @URL | 57'
+      - '🔒 | ss | @URL | 156'
+      - '🔒 | ss | @URL | 75'
       - '🔒 | ss | @URL | 17631'
-      - '🔒 | ss | @URL | 4980'
-      - '🔒 | ss | @v2ray_aq | 17759'
+      - '🔒 | ss | @URL | 17611'
+      - '🔒 | ss | @URL | 17629'
+      - '🔒 | ss | @URL | 17630'
+      - '🔒 | ss | @URL | 163'
+      - '🔒 | ss | @URL | 77'
+      - '🔒 | ss | @URL | 5005'
+      - '🔒 | ss | @URL | 16'
+      - '🔒 | ss | @URL | 2264'
+      - '🔒 | ss | @URL | 115'
+      - '🔒 | ss | @URL | 17559'
+      - '🔒 | ss | @URL | 15'
+      - '🔒 | ss | @URL | 45'
+      - '🔒 | ss | @URL | 5008'
+      - '🔒 | ss | @v2rayNG_Dani | 17743'
+      - '🔒 | ss | @URL | 17593'
       - '🔒 | ss | @URL | 96'
       - '🔒 | ss | @URL | 189'
-      - '🔒 | ss | @URL | 77'
-      - '🔒 | ss | @URL | 17572'
-      - '🔒 | trojan | @URL | 454'
-      - '🔒 | ss | @NamiraNet | 17830'
-      - '🔒 | ss | @URL | 145'
-      - '🔒 | ss | @URL | 17594'
-      - '🔒 | ss | @URL | 177'
-      - '🔒 | ss | @URL | 57'
-      - '🔒 | ss | @URL | 163'
-      - '🔒 | ss | @URL | 83'
-      - '🔒 | ss | @URL | 85'
-      - '🔒 | ss | @URL | 103'
-      - '🔒 | ss | @URL | 190'
-      - '🔒 | ss | @URL | 280'
-      - '🔒 | ss | @URL | 4976'
-      - '🔒 | ss | @URL | 171'
-      - '🔒 | ss | @URL | 162'
-      - '🔒 | ss | @URL | 50'
-      - '🔒 | ss | @URL | 142'
-      - '🔒 | ss | @URL | 143'
-      - '🔒 | ss | @URL | 17617'
-      - '🔒 | ss | @URL | 94'
-      - '🔒 | ss | @URL | 5015'
-      - '🔒 | ss | @URL | 271'
-      - '🔒 | ss | @URL | 159'
-      - '🔒 | ss | @v2ray_aq | 17755'
       - '🔒 | ss | @URL | 158'
-      - '🔒 | ss | @URL | 154'
+      - '🔒 | ss | @URL | 4988'
+      - '🔒 | ss | @URL | 176'
+      - '🔒 | ss | @URL | 49'
+      - '🔒 | ss | @URL | 145'
+      - '🔒 | ss | @URL | 4987'
       - '🔒 | ss | @URL | 339'
+      - '🔒 | ss | @URL | 17606'
+      - '🔒 | ss | @URL | 83'
+      - '🔒 | ss | @URL | 5000'
+      - '🔒 | ss | @URL | 159'
+      - '🔒 | ss | @URL | 5009'
+      - '🔒 | ss | @URL | 171'
+      - '🔒 | ss | @URL | 103'
+      - '🔒 | ss | @URL | 2247'
+      - '🔒 | ss | @URL | 280'
+      - '🔒 | ss | @URL | 164'
+      - '🔒 | ss | @URL | 162'
+      - '🔒 | ss | @openkeysfree | 17687'
+      - '🔒 | ss | @URL | 50'
+      - '🔒 | ss | @openkeysfree | 17686'
+      - '🔒 | ss | @URL | 144'
+      - '🔒 | ss | @openkeysfree | 17688'
+      - '🔒 | ss | @URL | 94'
+      - '🔒 | ss | @URL | 143'
+      - '🔒 | ss | @URL | 142'
+      - '🔒 | ss | @URL | 271'
+      - '🔒 | ss | @URL | 2353'
+      - '🔒 | ss | @URL | 5002'
+      - '🔒 | ss | @URL | 326'
   - name: URL-TEST
     type: url-test
     url: http://cp.cloudflare.com
@@ -305,184 +337,216 @@ proxy-groups:
     tolerance: 50
     proxies:
       - '🔒 | ss | @URL | 61'
+      - '🔒 | trojan | @URL | 525'
+      - '🔒 | trojan | @URL | 521'
+      - '🔒 | trojan | @URL | 522'
       - '🔒 | trojan | @URL | 519'
-      - '🔒 | trojan | @URL | 502'
       - '8ZQi@172.66.44.230:8443?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&path=/tro8sFW1S91B6sZrM1?ed=2560&Host=Koma-YT.PAGeS.Dev#🔒 | trojan | @URL | 500'
+      - '🔒 | trojan | @URL | 524'
+      - '🔒 | trojan | @URL | 5028'
+      - '🔒 | trojan | @URL | 502'
       - '🔒 | ss | @URL | 2248'
-      - '🔒 | ss | @URL | 2276'
       - '🔒 | ss | @URL | 113'
-      - '🔒 | ss | @URL | 110'
       - '🔒 | ss | @URL | 108'
-      - '🔒 | ss | @ConfigsHubPlus | 17810'
-      - '🔒 | ss | @vpnx1x | 17777'
-      - '🔒 | ss | @v2rayNG_Dani | 17717'
-      - '🔒 | ss | @hddify | 17785'
-      - '🔒 | ss | @hddify | 17781'
-      - '🔒 | ss | @ConfigsHubPlus | 17813'
-      - '🔒 | ss | @v2rayNG_Dani | 17731'
-      - '🔒 | ss | @URL | 26'
-      - '🔒 | ss | @vpnx1x | 17774'
-      - '🔒 | ss | @URL | 17554'
+      - '🔒 | ss | @URL | 110'
+      - '🔒 | ss | @URL | 5004'
+      - '🔒 | ss | @URL | 4999'
+      - '🔒 | ss | @v2ray_aq | 17787'
+      - '🔒 | ss | @mrsoulb | 17860'
+      - '🔒 | ss | @vpnx1x | 17795'
+      - '🔒 | ss | @URL | 24'
+      - '🔒 | ss | @URL | 32'
+      - '🔒 | ss | @URL | 29'
+      - '🔒 | ss | @URL | 21'
+      - '🔒 | ss | @mrsoulb | 17869'
       - '🔒 | ss | @URL | 41'
-      - '🔒 | ss | @URL | 17'
-      - '🔒 | ss | @configshere | 17750'
-      - '🔒 | ss | @URL | 5000'
-      - '🔒 | ss | @URL | 167'
-      - '🔒 | ss | @URL | 166'
-      - '🔒 | ss | @URL | 187'
-      - '🔒 | ss | @URL | 174'
-      - '🔒 | ss | @URL | 17548'
+      - '🔒 | ss | @ConfigsHubPlus | 17825'
+      - '🔒 | ss | @URL | 33'
+      - '🔒 | ss | @configshere | 17766'
       - '🔒 | ss | @URL | 172'
-      - '🔒 | ss | @URL | 173'
-      - '🔒 | ss | @URL | 5009'
+      - '🔒 | ss | @URL | 166'
       - '🔒 | ss | @URL | 178'
-      - '🔒 | ss | @mrsoulb | 17839'
-      - '🔒 | ss | @URL | 261'
-      - '🔒 | ss | @URL | 181'
-      - '🔒 | trojan | @URL | 5031'
-      - '🔒 | ss | @URL | 5011'
-      - '🔒 | ss | @URL | 362'
-      - '🔒 | ss | @URL | 55'
-      - '🔒 | ss | @URL | 165'
-      - '🔒 | ss | @URL | 4997'
+      - '🔒 | ss | @URL | 177'
       - '🔒 | ss | @URL | 30'
-      - '🔒 | ss | @URL | 5012'
-      - '🔒 | ss | @URL | 9'
-      - '🔒 | ss | @URL | 16'
-      - '🔒 | ss | @URL | 75'
-      - '🔒 | ss | @URL | 45'
-      - '🔒 | ss | @URL | 12'
+      - '🔒 | ss | @URL | 17'
+      - '🔒 | ss | @URL | 187'
+      - '🔒 | ss | @URL | 28'
+      - '🔒 | ss | @URL | 173'
+      - '🔒 | ss | @URL | 362'
+      - '🔒 | ss | @URL | 17547'
+      - '🔒 | ss | @v2rayNG_Dani | 17748'
+      - '🔒 | ss | @URL | 13'
+      - '🔒 | ss | @URL | 357'
+      - '🔒 | ss | @URL | 174'
+      - '🔒 | ss | @URL | 167'
+      - '🔒 | ss | @URL | 181'
+      - '🔒 | ss | @URL | 165'
+      - '🔒 | ss | @URL | 261'
+      - '🔒 | ss | @URL | 4949'
       - '🔒 | ss | @URL | 228'
-      - '🔒 | ss | @URL | 20'
-      - '🔒 | ss | @URL | 5014'
-      - '🔒 | ss | @URL | 15'
-      - '🔒 | ss | @URL | 115'
+      - '🔒 | ss | @URL | 9'
+      - '🔒 | ss | @URL | 4965'
+      - '🔒 | ss | @URL | 55'
+      - '🔒 | ss | @URL | 17607'
+      - '🔒 | ss | @URL | 57'
+      - '🔒 | ss | @URL | 156'
+      - '🔒 | ss | @URL | 75'
       - '🔒 | ss | @URL | 17631'
-      - '🔒 | ss | @URL | 4980'
-      - '🔒 | ss | @v2ray_aq | 17759'
+      - '🔒 | ss | @URL | 17611'
+      - '🔒 | ss | @URL | 17629'
+      - '🔒 | ss | @URL | 17630'
+      - '🔒 | ss | @URL | 163'
+      - '🔒 | ss | @URL | 77'
+      - '🔒 | ss | @URL | 5005'
+      - '🔒 | ss | @URL | 16'
+      - '🔒 | ss | @URL | 2264'
+      - '🔒 | ss | @URL | 115'
+      - '🔒 | ss | @URL | 17559'
+      - '🔒 | ss | @URL | 15'
+      - '🔒 | ss | @URL | 45'
+      - '🔒 | ss | @URL | 5008'
+      - '🔒 | ss | @v2rayNG_Dani | 17743'
+      - '🔒 | ss | @URL | 17593'
       - '🔒 | ss | @URL | 96'
       - '🔒 | ss | @URL | 189'
-      - '🔒 | ss | @URL | 77'
-      - '🔒 | ss | @URL | 17572'
-      - '🔒 | trojan | @URL | 454'
-      - '🔒 | ss | @NamiraNet | 17830'
-      - '🔒 | ss | @URL | 145'
-      - '🔒 | ss | @URL | 17594'
-      - '🔒 | ss | @URL | 177'
-      - '🔒 | ss | @URL | 57'
-      - '🔒 | ss | @URL | 163'
-      - '🔒 | ss | @URL | 83'
-      - '🔒 | ss | @URL | 85'
-      - '🔒 | ss | @URL | 103'
-      - '🔒 | ss | @URL | 190'
-      - '🔒 | ss | @URL | 280'
-      - '🔒 | ss | @URL | 4976'
-      - '🔒 | ss | @URL | 171'
-      - '🔒 | ss | @URL | 162'
-      - '🔒 | ss | @URL | 50'
-      - '🔒 | ss | @URL | 142'
-      - '🔒 | ss | @URL | 143'
-      - '🔒 | ss | @URL | 17617'
-      - '🔒 | ss | @URL | 94'
-      - '🔒 | ss | @URL | 5015'
-      - '🔒 | ss | @URL | 271'
-      - '🔒 | ss | @URL | 159'
-      - '🔒 | ss | @v2ray_aq | 17755'
       - '🔒 | ss | @URL | 158'
-      - '🔒 | ss | @URL | 154'
+      - '🔒 | ss | @URL | 4988'
+      - '🔒 | ss | @URL | 176'
+      - '🔒 | ss | @URL | 49'
+      - '🔒 | ss | @URL | 145'
+      - '🔒 | ss | @URL | 4987'
       - '🔒 | ss | @URL | 339'
+      - '🔒 | ss | @URL | 17606'
+      - '🔒 | ss | @URL | 83'
+      - '🔒 | ss | @URL | 5000'
+      - '🔒 | ss | @URL | 159'
+      - '🔒 | ss | @URL | 5009'
+      - '🔒 | ss | @URL | 171'
+      - '🔒 | ss | @URL | 103'
+      - '🔒 | ss | @URL | 2247'
+      - '🔒 | ss | @URL | 280'
+      - '🔒 | ss | @URL | 164'
+      - '🔒 | ss | @URL | 162'
+      - '🔒 | ss | @openkeysfree | 17687'
+      - '🔒 | ss | @URL | 50'
+      - '🔒 | ss | @openkeysfree | 17686'
+      - '🔒 | ss | @URL | 144'
+      - '🔒 | ss | @openkeysfree | 17688'
+      - '🔒 | ss | @URL | 94'
+      - '🔒 | ss | @URL | 143'
+      - '🔒 | ss | @URL | 142'
+      - '🔒 | ss | @URL | 271'
+      - '🔒 | ss | @URL | 2353'
+      - '🔒 | ss | @URL | 5002'
+      - '🔒 | ss | @URL | 326'
   - name: FALLBACK
     type: fallback
     url: http://cp.cloudflare.com
     interval: 60
     proxies:
       - '🔒 | ss | @URL | 61'
+      - '🔒 | trojan | @URL | 525'
+      - '🔒 | trojan | @URL | 521'
+      - '🔒 | trojan | @URL | 522'
       - '🔒 | trojan | @URL | 519'
-      - '🔒 | trojan | @URL | 502'
       - '8ZQi@172.66.44.230:8443?security=tls&sni=Koma-YT.PAGeS.Dev&type=ws&path=/tro8sFW1S91B6sZrM1?ed=2560&Host=Koma-YT.PAGeS.Dev#🔒 | trojan | @URL | 500'
+      - '🔒 | trojan | @URL | 524'
+      - '🔒 | trojan | @URL | 5028'
+      - '🔒 | trojan | @URL | 502'
       - '🔒 | ss | @URL | 2248'
-      - '🔒 | ss | @URL | 2276'
       - '🔒 | ss | @URL | 113'
-      - '🔒 | ss | @URL | 110'
       - '🔒 | ss | @URL | 108'
-      - '🔒 | ss | @ConfigsHubPlus | 17810'
-      - '🔒 | ss | @vpnx1x | 17777'
-      - '🔒 | ss | @v2rayNG_Dani | 17717'
-      - '🔒 | ss | @hddify | 17785'
-      - '🔒 | ss | @hddify | 17781'
-      - '🔒 | ss | @ConfigsHubPlus | 17813'
-      - '🔒 | ss | @v2rayNG_Dani | 17731'
-      - '🔒 | ss | @URL | 26'
-      - '🔒 | ss | @vpnx1x | 17774'
-      - '🔒 | ss | @URL | 17554'
+      - '🔒 | ss | @URL | 110'
+      - '🔒 | ss | @URL | 5004'
+      - '🔒 | ss | @URL | 4999'
+      - '🔒 | ss | @v2ray_aq | 17787'
+      - '🔒 | ss | @mrsoulb | 17860'
+      - '🔒 | ss | @vpnx1x | 17795'
+      - '🔒 | ss | @URL | 24'
+      - '🔒 | ss | @URL | 32'
+      - '🔒 | ss | @URL | 29'
+      - '🔒 | ss | @URL | 21'
+      - '🔒 | ss | @mrsoulb | 17869'
       - '🔒 | ss | @URL | 41'
-      - '🔒 | ss | @URL | 17'
-      - '🔒 | ss | @configshere | 17750'
-      - '🔒 | ss | @URL | 5000'
-      - '🔒 | ss | @URL | 167'
-      - '🔒 | ss | @URL | 166'
-      - '🔒 | ss | @URL | 187'
-      - '🔒 | ss | @URL | 174'
-      - '🔒 | ss | @URL | 17548'
+      - '🔒 | ss | @ConfigsHubPlus | 17825'
+      - '🔒 | ss | @URL | 33'
+      - '🔒 | ss | @configshere | 17766'
       - '🔒 | ss | @URL | 172'
-      - '🔒 | ss | @URL | 173'
-      - '🔒 | ss | @URL | 5009'
+      - '🔒 | ss | @URL | 166'
       - '🔒 | ss | @URL | 178'
-      - '🔒 | ss | @mrsoulb | 17839'
-      - '🔒 | ss | @URL | 261'
-      - '🔒 | ss | @URL | 181'
-      - '🔒 | trojan | @URL | 5031'
-      - '🔒 | ss | @URL | 5011'
-      - '🔒 | ss | @URL | 362'
-      - '🔒 | ss | @URL | 55'
-      - '🔒 | ss | @URL | 165'
-      - '🔒 | ss | @URL | 4997'
+      - '🔒 | ss | @URL | 177'
       - '🔒 | ss | @URL | 30'
-      - '🔒 | ss | @URL | 5012'
-      - '🔒 | ss | @URL | 9'
-      - '🔒 | ss | @URL | 16'
-      - '🔒 | ss | @URL | 75'
-      - '🔒 | ss | @URL | 45'
-      - '🔒 | ss | @URL | 12'
+      - '🔒 | ss | @URL | 17'
+      - '🔒 | ss | @URL | 187'
+      - '🔒 | ss | @URL | 28'
+      - '🔒 | ss | @URL | 173'
+      - '🔒 | ss | @URL | 362'
+      - '🔒 | ss | @URL | 17547'
+      - '🔒 | ss | @v2rayNG_Dani | 17748'
+      - '🔒 | ss | @URL | 13'
+      - '🔒 | ss | @URL | 357'
+      - '🔒 | ss | @URL | 174'
+      - '🔒 | ss | @URL | 167'
+      - '🔒 | ss | @URL | 181'
+      - '🔒 | ss | @URL | 165'
+      - '🔒 | ss | @URL | 261'
+      - '🔒 | ss | @URL | 4949'
       - '🔒 | ss | @URL | 228'
-      - '🔒 | ss | @URL | 20'
-      - '🔒 | ss | @URL | 5014'
-      - '🔒 | ss | @URL | 15'
-      - '🔒 | ss | @URL | 115'
+      - '🔒 | ss | @URL | 9'
+      - '🔒 | ss | @URL | 4965'
+      - '🔒 | ss | @URL | 55'
+      - '🔒 | ss | @URL | 17607'
+      - '🔒 | ss | @URL | 57'
+      - '🔒 | ss | @URL | 156'
+      - '🔒 | ss | @URL | 75'
       - '🔒 | ss | @URL | 17631'
-      - '🔒 | ss | @URL | 4980'
-      - '🔒 | ss | @v2ray_aq | 17759'
+      - '🔒 | ss | @URL | 17611'
+      - '🔒 | ss | @URL | 17629'
+      - '🔒 | ss | @URL | 17630'
+      - '🔒 | ss | @URL | 163'
+      - '🔒 | ss | @URL | 77'
+      - '🔒 | ss | @URL | 5005'
+      - '🔒 | ss | @URL | 16'
+      - '🔒 | ss | @URL | 2264'
+      - '🔒 | ss | @URL | 115'
+      - '🔒 | ss | @URL | 17559'
+      - '🔒 | ss | @URL | 15'
+      - '🔒 | ss | @URL | 45'
+      - '🔒 | ss | @URL | 5008'
+      - '🔒 | ss | @v2rayNG_Dani | 17743'
+      - '🔒 | ss | @URL | 17593'
       - '🔒 | ss | @URL | 96'
       - '🔒 | ss | @URL | 189'
-      - '🔒 | ss | @URL | 77'
-      - '🔒 | ss | @URL | 17572'
-      - '🔒 | trojan | @URL | 454'
-      - '🔒 | ss | @NamiraNet | 17830'
-      - '🔒 | ss | @URL | 145'
-      - '🔒 | ss | @URL | 17594'
-      - '🔒 | ss | @URL | 177'
-      - '🔒 | ss | @URL | 57'
-      - '🔒 | ss | @URL | 163'
-      - '🔒 | ss | @URL | 83'
-      - '🔒 | ss | @URL | 85'
-      - '🔒 | ss | @URL | 103'
-      - '🔒 | ss | @URL | 190'
-      - '🔒 | ss | @URL | 280'
-      - '🔒 | ss | @URL | 4976'
-      - '🔒 | ss | @URL | 171'
-      - '🔒 | ss | @URL | 162'
-      - '🔒 | ss | @URL | 50'
-      - '🔒 | ss | @URL | 142'
-      - '🔒 | ss | @URL | 143'
-      - '🔒 | ss | @URL | 17617'
-      - '🔒 | ss | @URL | 94'
-      - '🔒 | ss | @URL | 5015'
-      - '🔒 | ss | @URL | 271'
-      - '🔒 | ss | @URL | 159'
-      - '🔒 | ss | @v2ray_aq | 17755'
       - '🔒 | ss | @URL | 158'
-      - '🔒 | ss | @URL | 154'
+      - '🔒 | ss | @URL | 4988'
+      - '🔒 | ss | @URL | 176'
+      - '🔒 | ss | @URL | 49'
+      - '🔒 | ss | @URL | 145'
+      - '🔒 | ss | @URL | 4987'
       - '🔒 | ss | @URL | 339'
+      - '🔒 | ss | @URL | 17606'
+      - '🔒 | ss | @URL | 83'
+      - '🔒 | ss | @URL | 5000'
+      - '🔒 | ss | @URL | 159'
+      - '🔒 | ss | @URL | 5009'
+      - '🔒 | ss | @URL | 171'
+      - '🔒 | ss | @URL | 103'
+      - '🔒 | ss | @URL | 2247'
+      - '🔒 | ss | @URL | 280'
+      - '🔒 | ss | @URL | 164'
+      - '🔒 | ss | @URL | 162'
+      - '🔒 | ss | @openkeysfree | 17687'
+      - '🔒 | ss | @URL | 50'
+      - '🔒 | ss | @openkeysfree | 17686'
+      - '🔒 | ss | @URL | 144'
+      - '🔒 | ss | @openkeysfree | 17688'
+      - '🔒 | ss | @URL | 94'
+      - '🔒 | ss | @URL | 143'
+      - '🔒 | ss | @URL | 142'
+      - '🔒 | ss | @URL | 271'
+      - '🔒 | ss | @URL | 2353'
+      - '🔒 | ss | @URL | 5002'
+      - '🔒 | ss | @URL | 326'
 rules:
   - IP-CIDR,127.0.0.1/32,DIRECT,no-resolve
   - IP-CIDR,198.18.0.1/16,DIRECT,no-resolve
